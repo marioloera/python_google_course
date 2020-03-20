@@ -1,0 +1,389 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:ucReply xmlns:ns1="http://www.uc.se/schemas/ucOrderRequest/" xmlns:ns2="http://www.uc.se/schemas/ucOrderReply/">
+			<ns2:status ns2:result="ok"/>
+			<ns2:ucReport>
+				<ns2:xmlReply>
+					<ns2:reports ns2:lang="swe">
+						<ns2:report ns2:index="0" ns2:styp="3" ns2:name="\'Ahmad\' Delshad Abdullah" ns2:id="9003056430">
+							<ns2:group ns2:name="ID-uppgifter, fysiker" ns2:key="" ns2:index="0" ns2:id="W080">
+								<ns2:term ns2:id="W08001">9900305643</ns2:term>
+								<ns2:term ns2:id="W08002">9003056430</ns2:term>
+								<ns2:term ns2:id="W08003">\'Ahmad\' Delshad Abdullah</ns2:term>
+								<ns2:term ns2:id="W08004">Ärlegatan 12 A</ns2:term>
+								<ns2:term ns2:id="W08005">41457</ns2:term>
+								<ns2:term ns2:id="W08006">Göteborg</ns2:term>
+								<ns2:term ns2:id="W08018">N</ns2:term>
+								<ns2:term ns2:id="W08027"/>
+								<ns2:term ns2:id="W08030">1</ns2:term>
+								<ns2:term ns2:id="W08043">Ogift</ns2:term>
+								<ns2:term ns2:id="W08036">2018-11-01</ns2:term>
+								<ns2:term ns2:id="W08009">14</ns2:term>
+								<ns2:term ns2:id="W08012">Västra Götalands</ns2:term>
+								<ns2:term ns2:id="W08010">80</ns2:term>
+								<ns2:term ns2:id="W08013">Göteborg</ns2:term>
+								<ns2:term ns2:id="W08011">00</ns2:term>
+								<ns2:term ns2:id="W08014"/>
+								<ns2:term ns2:id="W08035">Abdullah, Ahmad Delshad</ns2:term>
+								<ns2:term ns2:id="W08070">Abdullah, Ahmad Delshad</ns2:term>
+								<ns2:term ns2:id="W08071">Ärlegatan 12 A</ns2:term>
+								<ns2:term ns2:id="W08072">Göteborg</ns2:term>
+								<ns2:term ns2:id="W08083">Ahmad Delshad</ns2:term>
+								<ns2:term ns2:id="W08084">Abdullah</ns2:term>
+								<ns2:term ns2:id="W08085">Ahmad</ns2:term>
+								<ns2:term ns2:id="W08086">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Obstexter" ns2:key="" ns2:index="0" ns2:id="W127">
+								<ns2:term ns2:id="W12701">Observera att inte samtliga kreditgivare rapporterar in dagliga förändringar.</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Historiska adresser" ns2:key="" ns2:index="0" ns2:id="W2B0">
+								<ns2:term ns2:id="W2B001">201908</ns2:term>
+								<ns2:term ns2:id="W2B002">Västerslänt 101</ns2:term>
+								<ns2:term ns2:id="W2B003">42435</ns2:term>
+								<ns2:term ns2:id="W2B004">Angered</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Historiska adresser" ns2:key="" ns2:index="1" ns2:id="W2B0">
+								<ns2:term ns2:id="W2B001">201701</ns2:term>
+								<ns2:term ns2:id="W2B002">Östra Midvintersgatan 13 Lg</ns2:term>
+								<ns2:term ns2:id="W2B003">41512</ns2:term>
+								<ns2:term ns2:id="W2B004">Göteborg</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Historiska adresser" ns2:key="" ns2:index="2" ns2:id="W2B0">
+								<ns2:term ns2:id="W2B001">201612</ns2:term>
+								<ns2:term ns2:id="W2B002">Fjäderharvsgatan 33</ns2:term>
+								<ns2:term ns2:id="W2B003">42466</ns2:term>
+								<ns2:term ns2:id="W2B004">Angered</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name=" " ns2:key="" ns2:index="0" ns2:id="W4C0">
+								<ns2:term ns2:id="W4C001">0</ns2:term>
+								<ns2:term ns2:id="W4C002">0</ns2:term>
+								<ns2:term ns2:id="W4C003">0</ns2:term>
+								<ns2:term ns2:id="W4C004">1</ns2:term>
+								<ns2:term ns2:id="W4C005">1</ns2:term>
+								<ns2:term ns2:id="W4C009">325023</ns2:term>
+								<ns2:term ns2:id="W4C013">A</ns2:term>
+								<ns2:term ns2:id="W4C016">0</ns2:term>
+								<ns2:term ns2:id="W4C022">2</ns2:term>
+								<ns2:term ns2:id="W4C024">164,56 %</ns2:term>
+								<ns2:term ns2:id="W4C025">164,56 %</ns2:term>
+								<ns2:term ns2:id="W4C026">143,62 %</ns2:term>
+								<ns2:term ns2:id="W4C027">143,62 %</ns2:term>
+								<ns2:term ns2:id="W4C028">0</ns2:term>
+								<ns2:term ns2:id="W4C029">1</ns2:term>
+								<ns2:term ns2:id="W4C030">1</ns2:term>
+								<ns2:term ns2:id="W4C031">0</ns2:term>
+								<ns2:term ns2:id="W4C032">0</ns2:term>
+								<ns2:term ns2:id="W4C034">2</ns2:term>
+								<ns2:term ns2:id="W4C036">100,00 %</ns2:term>
+								<ns2:term ns2:id="W4C037">100,00 %</ns2:term>
+								<ns2:term ns2:id="W4C038">100,00 %</ns2:term>
+								<ns2:term ns2:id="W4C039">0,00 %</ns2:term>
+								<ns2:term ns2:id="W4C040">0,00 %</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="0" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20190731</ns2:term>
+								<ns2:term ns2:id="W45002">325023</ns2:term>
+								<ns2:term ns2:id="W45008">2</ns2:term>
+								<ns2:term ns2:id="W45009">2</ns2:term>
+								<ns2:term ns2:id="W45022">325023</ns2:term>
+								<ns2:term ns2:id="W45023">154238</ns2:term>
+								<ns2:term ns2:id="W45025">170785</ns2:term>
+								<ns2:term ns2:id="W45026">0</ns2:term>
+								<ns2:term ns2:id="W45030">4</ns2:term>
+								<ns2:term ns2:id="W45031">0</ns2:term>
+								<ns2:term ns2:id="W45033">2</ns2:term>
+								<ns2:term ns2:id="W45034">2</ns2:term>
+								<ns2:term ns2:id="W45035">154238</ns2:term>
+								<ns2:term ns2:id="W45037">170785</ns2:term>
+								<ns2:term ns2:id="W45045">325023</ns2:term>
+								<ns2:term ns2:id="W45046">325023</ns2:term>
+								<ns2:term ns2:id="W45047">1</ns2:term>
+								<ns2:term ns2:id="W45048">0</ns2:term>
+								<ns2:term ns2:id="W45049">1</ns2:term>
+								<ns2:term ns2:id="W45050">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="1" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20190531</ns2:term>
+								<ns2:term ns2:id="W45002">331747</ns2:term>
+								<ns2:term ns2:id="W45008">2</ns2:term>
+								<ns2:term ns2:id="W45009">2</ns2:term>
+								<ns2:term ns2:id="W45022">331747</ns2:term>
+								<ns2:term ns2:id="W45023">158868</ns2:term>
+								<ns2:term ns2:id="W45025">172879</ns2:term>
+								<ns2:term ns2:id="W45033">2</ns2:term>
+								<ns2:term ns2:id="W45034">2</ns2:term>
+								<ns2:term ns2:id="W45035">158868</ns2:term>
+								<ns2:term ns2:id="W45037">172879</ns2:term>
+								<ns2:term ns2:id="W45045">331747</ns2:term>
+								<ns2:term ns2:id="W45046">331747</ns2:term>
+								<ns2:term ns2:id="W45047">1</ns2:term>
+								<ns2:term ns2:id="W45048">0</ns2:term>
+								<ns2:term ns2:id="W45049">1</ns2:term>
+								<ns2:term ns2:id="W45050">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="2" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20190331</ns2:term>
+								<ns2:term ns2:id="W45002">338429</ns2:term>
+								<ns2:term ns2:id="W45008">2</ns2:term>
+								<ns2:term ns2:id="W45009">2</ns2:term>
+								<ns2:term ns2:id="W45022">338429</ns2:term>
+								<ns2:term ns2:id="W45023">163482</ns2:term>
+								<ns2:term ns2:id="W45025">174947</ns2:term>
+								<ns2:term ns2:id="W45033">2</ns2:term>
+								<ns2:term ns2:id="W45034">2</ns2:term>
+								<ns2:term ns2:id="W45035">163482</ns2:term>
+								<ns2:term ns2:id="W45037">174947</ns2:term>
+								<ns2:term ns2:id="W45045">338429</ns2:term>
+								<ns2:term ns2:id="W45046">338429</ns2:term>
+								<ns2:term ns2:id="W45047">1</ns2:term>
+								<ns2:term ns2:id="W45048">0</ns2:term>
+								<ns2:term ns2:id="W45049">1</ns2:term>
+								<ns2:term ns2:id="W45050">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="3" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20190131</ns2:term>
+								<ns2:term ns2:id="W45002">346078</ns2:term>
+								<ns2:term ns2:id="W45008">2</ns2:term>
+								<ns2:term ns2:id="W45009">2</ns2:term>
+								<ns2:term ns2:id="W45022">346078</ns2:term>
+								<ns2:term ns2:id="W45023">168080</ns2:term>
+								<ns2:term ns2:id="W45025">177998</ns2:term>
+								<ns2:term ns2:id="W45033">2</ns2:term>
+								<ns2:term ns2:id="W45034">2</ns2:term>
+								<ns2:term ns2:id="W45035">168080</ns2:term>
+								<ns2:term ns2:id="W45037">177998</ns2:term>
+								<ns2:term ns2:id="W45045">346078</ns2:term>
+								<ns2:term ns2:id="W45046">346078</ns2:term>
+								<ns2:term ns2:id="W45047">1</ns2:term>
+								<ns2:term ns2:id="W45048">0</ns2:term>
+								<ns2:term ns2:id="W45049">1</ns2:term>
+								<ns2:term ns2:id="W45050">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="4" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20181130</ns2:term>
+								<ns2:term ns2:id="W45002">351699</ns2:term>
+								<ns2:term ns2:id="W45008">2</ns2:term>
+								<ns2:term ns2:id="W45009">2</ns2:term>
+								<ns2:term ns2:id="W45022">351699</ns2:term>
+								<ns2:term ns2:id="W45023">172697</ns2:term>
+								<ns2:term ns2:id="W45025">179002</ns2:term>
+								<ns2:term ns2:id="W45033">2</ns2:term>
+								<ns2:term ns2:id="W45034">2</ns2:term>
+								<ns2:term ns2:id="W45035">172697</ns2:term>
+								<ns2:term ns2:id="W45037">179002</ns2:term>
+								<ns2:term ns2:id="W45045">351699</ns2:term>
+								<ns2:term ns2:id="W45046">351699</ns2:term>
+								<ns2:term ns2:id="W45047">1</ns2:term>
+								<ns2:term ns2:id="W45048">0</ns2:term>
+								<ns2:term ns2:id="W45049">1</ns2:term>
+								<ns2:term ns2:id="W45050">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="5" ns2:id="W450">
+								<ns2:term ns2:id="W45001">20180930</ns2:term>
+								<ns2:term ns2:id="W45008">0</ns2:term>
+								<ns2:term ns2:id="W45009">0</ns2:term>
+								<ns2:term ns2:id="W45033">0</ns2:term>
+								<ns2:term ns2:id="W45034">0</ns2:term>
+								<ns2:term ns2:id="W45045">0</ns2:term>
+								<ns2:term ns2:id="W45046">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Händelser kreditengagemang" ns2:key="199003056430" ns2:index="0" ns2:id="W46A">
+								<ns2:term ns2:id="W46A01">20190801</ns2:term>
+								<ns2:term ns2:id="W46A02">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Summering händelser kreditengagemang" ns2:key="199003056430" ns2:index="0" ns2:id="W46B">
+								<ns2:term ns2:id="W46B01">20190801</ns2:term>
+								<ns2:term ns2:id="W46B02">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Förändring på befintliga krediter" ns2:key="199003056430" ns2:index="0" ns2:id="W46C">
+								<ns2:term ns2:id="W46C01">20190801</ns2:term>
+								<ns2:term ns2:id="W46C02">0</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Inkomstuppgifter" ns2:key="2018" ns2:index="0" ns2:id="W491">
+								<ns2:term ns2:id="W49101">2018</ns2:term>
+								<ns2:term ns2:id="W49117">198</ns2:term>
+								<ns2:term ns2:id="W49119">3</ns2:term>
+								<ns2:term ns2:id="W49122">198</ns2:term>
+								<ns2:term ns2:id="W49141">54</ns2:term>
+								<ns2:term ns2:id="W49191">54</ns2:term>
+								<ns2:term ns2:id="W49192">194</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Inkomstuppgifter" ns2:key="2017" ns2:index="1" ns2:id="W491">
+								<ns2:term ns2:id="W49101">2017</ns2:term>
+								<ns2:term ns2:id="W49117">228</ns2:term>
+								<ns2:term ns2:id="W49119">0</ns2:term>
+								<ns2:term ns2:id="W49122">228</ns2:term>
+								<ns2:term ns2:id="W49141">48</ns2:term>
+								<ns2:term ns2:id="W49191">48</ns2:term>
+								<ns2:term ns2:id="W49192">228</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Inkomstuppgifter" ns2:key="2018" ns2:index="0" ns2:id="W495">
+								<ns2:term ns2:id="W49501">2018</ns2:term>
+								<ns2:term ns2:id="W49517">197600</ns2:term>
+								<ns2:term ns2:id="W49519">3200</ns2:term>
+								<ns2:term ns2:id="W49522">197500</ns2:term>
+								<ns2:term ns2:id="W49541">53800</ns2:term>
+								<ns2:term ns2:id="W49591">53800</ns2:term>
+								<ns2:term ns2:id="W49592">194300</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Inkomstuppgifter" ns2:key="2017" ns2:index="1" ns2:id="W495">
+								<ns2:term ns2:id="W49501">2017</ns2:term>
+								<ns2:term ns2:id="W49517">228300</ns2:term>
+								<ns2:term ns2:id="W49519">0</ns2:term>
+								<ns2:term ns2:id="W49522">228200</ns2:term>
+								<ns2:term ns2:id="W49541">48300</ns2:term>
+								<ns2:term ns2:id="W49591">48300</ns2:term>
+								<ns2:term ns2:id="W49592">228200</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key=" 00000" ns2:index="0" ns2:id="W640">
+								<ns2:term ns2:id="W64001">5</ns2:term>
+								<ns2:term ns2:id="W64016">0</ns2:term>
+								<ns2:term ns2:id="W64020">5</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key="190901" ns2:index="1" ns2:id="W640">
+								<ns2:term ns2:id="W64002">20190901</ns2:term>
+								<ns2:term ns2:id="W64004">Lendo AB/Compricer AB</ns2:term>
+								<ns2:term ns2:id="W64005">0</ns2:term>
+								<ns2:term ns2:id="W64007">L</ns2:term>
+								<ns2:term ns2:id="W64011">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key="190901" ns2:index="2" ns2:id="W640">
+								<ns2:term ns2:id="W64002">20190901</ns2:term>
+								<ns2:term ns2:id="W64004">Bynk AB</ns2:term>
+								<ns2:term ns2:id="W64005">0</ns2:term>
+								<ns2:term ns2:id="W64007">C</ns2:term>
+								<ns2:term ns2:id="W64011">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key="181031" ns2:index="3" ns2:id="W640">
+								<ns2:term ns2:id="W64002">20181031</ns2:term>
+								<ns2:term ns2:id="W64003">8000</ns2:term>
+								<ns2:term ns2:id="W64004">Resurs Bank AB</ns2:term>
+								<ns2:term ns2:id="W64005">0</ns2:term>
+								<ns2:term ns2:id="W64007">C</ns2:term>
+								<ns2:term ns2:id="W64011">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key="181023" ns2:index="4" ns2:id="W640">
+								<ns2:term ns2:id="W64002">20181023</ns2:term>
+								<ns2:term ns2:id="W64003">300000</ns2:term>
+								<ns2:term ns2:id="W64004">Nordea Finans Sverige AB</ns2:term>
+								<ns2:term ns2:id="W64005">0</ns2:term>
+								<ns2:term ns2:id="W64007">C</ns2:term>
+								<ns2:term ns2:id="W64011">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Frågor" ns2:key="181022" ns2:index="5" ns2:id="W640">
+								<ns2:term ns2:id="W64002">20181022</ns2:term>
+								<ns2:term ns2:id="W64004">Lendo AB/Compricer AB</ns2:term>
+								<ns2:term ns2:id="W64005">0</ns2:term>
+								<ns2:term ns2:id="W64007">L</ns2:term>
+								<ns2:term ns2:id="W64011">1</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Mallbeslut" ns2:key="" ns2:index="0" ns2:id="W131">
+								<ns2:term ns2:id="W13105">P</ns2:term>
+								<ns2:term ns2:id="W13111">2,9 %</ns2:term>
+								<ns2:term ns2:id="W13130">J</ns2:term>
+								<ns2:term ns2:id="W13131">N</ns2:term>
+								<ns2:term ns2:id="W13132">Riskprognos</ns2:term>
+								<ns2:term ns2:id="W13136">R</ns2:term>
+								<ns2:term ns2:id="W13139">00290</ns2:term>
+								<ns2:term ns2:id="W13141">0000080000</ns2:term>
+								<ns2:term ns2:id="W13147">2,85 %</ns2:term>
+								<ns2:term ns2:id="W13149">Prövning enl mall  LNE</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Orsakstexter" ns2:key="" ns2:index="0" ns2:id="W132">
+								<ns2:term ns2:id="W13202">Prövad kredit kommer att prövas och bedömas av kreditgivaren/frågeställaren</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Mallinformation" ns2:key="" ns2:index="0" ns2:id="W133">
+								<ns2:term ns2:id="W13301">LNE</ns2:term>
+								<ns2:term ns2:id="W13302">LNE, LENDIFY AB</ns2:term>
+								<ns2:term ns2:id="W13309">J</ns2:term>
+								<ns2:term ns2:id="W13350">N</ns2:term>
+								<ns2:term ns2:id="W13351">LNE</ns2:term>
+								<ns2:term ns2:id="W13352">2</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name=" " ns2:key="" ns2:index="0" ns2:id="W990">
+								<ns2:term ns2:id="W99004">3</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Diverseuppgifter" ns2:key="" ns2:index="0" ns2:id="W980">
+								<ns2:term ns2:id="W98001">sammanfattning</ns2:term>
+								<ns2:term ns2:id="W98002">handelser</ns2:term>
+								<ns2:term ns2:id="W98003">kreditomdome</ns2:term>
+								<ns2:term ns2:id="W98004">allmant</ns2:term>
+								<ns2:term ns2:id="W98005">inkomst</ns2:term>
+								<ns2:term ns2:id="W98006">engagemang</ns2:term>
+								<ns2:term ns2:id="W98007">anm</ns2:term>
+								<ns2:term ns2:id="W98008">fragor</ns2:term>
+								<ns2:term ns2:id="W98021">F01</ns2:term>
+								<ns2:term ns2:id="W98023">4</ns2:term>
+								<ns2:term ns2:id="W98024">0</ns2:term>
+								<ns2:term ns2:id="W98026">0000080000</ns2:term>
+								<ns2:term ns2:id="W98029">0</ns2:term>
+								<ns2:term ns2:id="W98036">0</ns2:term>
+								<ns2:term ns2:id="W98038">J</ns2:term>
+								<ns2:term ns2:id="W98040">Webservices 9</ns2:term>
+								<ns2:term ns2:id="W98041">Lendify AB (Publ)</ns2:term>
+								<ns2:term ns2:id="W98042">20190901</ns2:term>
+								<ns2:term ns2:id="W98051">3</ns2:term>
+								<ns2:term ns2:id="W98052">1</ns2:term>
+								<ns2:term ns2:id="W98054">N</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="0" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H02</ns2:term>
+								<ns2:term ns2:id="W98102">Sammanfattning</ns2:term>
+								<ns2:term ns2:id="W98103">sammanfattning</ns2:term>
+								<ns2:term ns2:id="W98104">#H02</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="1" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H04</ns2:term>
+								<ns2:term ns2:id="W98102">Senast registrerade händelser</ns2:term>
+								<ns2:term ns2:id="W98103">handelser</ns2:term>
+								<ns2:term ns2:id="W98104">#H04</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="2" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H06</ns2:term>
+								<ns2:term ns2:id="W98102">Kreditomdöme</ns2:term>
+								<ns2:term ns2:id="W98103">kreditomdome</ns2:term>
+								<ns2:term ns2:id="W98104">#H06</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="3" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H08</ns2:term>
+								<ns2:term ns2:id="W98102">Allmänna uppgifter</ns2:term>
+								<ns2:term ns2:id="W98103">allmant</ns2:term>
+								<ns2:term ns2:id="W98104">#H08</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="4" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H12</ns2:term>
+								<ns2:term ns2:id="W98102">Inkomstuppgifter</ns2:term>
+								<ns2:term ns2:id="W98103">inkomst</ns2:term>
+								<ns2:term ns2:id="W98104">#H12</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="5" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H20</ns2:term>
+								<ns2:term ns2:id="W98102">Kreditengagemang</ns2:term>
+								<ns2:term ns2:id="W98103">engagemang</ns2:term>
+								<ns2:term ns2:id="W98104">#H20</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="6" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H22</ns2:term>
+								<ns2:term ns2:id="W98102">Betalningsanmärkningar och andra anmärkningar</ns2:term>
+								<ns2:term ns2:id="W98103">anm</ns2:term>
+								<ns2:term ns2:id="W98104">#H22</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="7" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H24</ns2:term>
+								<ns2:term ns2:id="W98102">Senaste frågor hos UC</ns2:term>
+								<ns2:term ns2:id="W98103">fragor</ns2:term>
+								<ns2:term ns2:id="W98104">#H24</ns2:term>
+							</ns2:group>
+							<ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="8" ns2:id="W981">
+								<ns2:term ns2:id="W98101">H30</ns2:term>
+								<ns2:term ns2:id="W98102">UC:s ansvar</ns2:term>
+								<ns2:term ns2:id="W98103"/>
+								<ns2:term ns2:id="W98104">#H30</ns2:term>
+							</ns2:group>
+						</ns2:report>
+					</ns2:reports>
+				</ns2:xmlReply>'
+			</ns2:ucReport>
+		</ns2:ucReply>
+	</soap:Body>
+</soap:Envelope>

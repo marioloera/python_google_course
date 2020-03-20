@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<soapenv:Envelope xmlns:soapenv="https://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ucReply xmlns="https://www.uc.se.schemas/ucOrderReply/">
+            <ns2:status ns2:result="ok" 
+                xmlns:ns2="https://www.uc.se.schemas/ucOrderReply/" />
+            <ucReport>
+                <othertag>kidk
+                </othertag>
+                <xmlReply>
+                    <ns2:reports ns2:lang="swe" 
+                        xmlns:ns2="https://www.uc.se.schemas/ucOrderReply/">
+                        <ns2:report ns2:id="4801093750" ns2:index="0" ns2:name="Peter 'Ernst' Peltonen" ns2:styp="3">
+                            <ns2:group ns2:id="W080" ns2:index="0" ns2:key="" ns2:name="IDuppgifter, fysiker">
+                                <ns2:term ns2:id="W08001">9480109375</ns2:term>
+                                <ns2:term ns2:id="W08002">4801093750</ns2:term>
+                                <ns2:term ns2:id="W08003">Peter 'Ernst' Peltonen</ns2:term>
+                                <ns2:term ns2:id="W08004">Barong 3</ns2:term>
+                                <ns2:term ns2:id="W08005">23072</ns2:term>
+                                <ns2:term ns2:id="W08006">Tygelsjö</ns2:term>
+                                <ns2:term ns2:id="W08007">5905104948</ns2:term>
+                                <ns2:term ns2:id="W08008">Helga Peltonen</ns2:term>
+                                <ns2:term ns2:id="W08015">199510</ns2:term>
+                                <ns2:term ns2:id="W08045">Registrerat sedan 1995-10 </ns2:term>
+                                <ns2:term ns2:id="W08018">N </ns2:term>
+                                <ns2:term ns2:id="W08027" />
+                                <ns2:term ns2:id="W08030">2</ns2:term>
+                                <ns2:term ns2:id="W08043">Gift sedan 1995-08 med Helga Peltonen (590510-4948)</ns2:term>
+                                <ns2:term ns2:id="W08031">199508</ns2:term>
+                                <ns2:term ns2:id="W08036">2003-11-01</ns2:term>
+                                <ns2:term ns2:id="W08009">12</ns2:term>
+                                <ns2:term ns2:id="W08012">Skåne</ns2:term>
+                                <ns2:term ns2:id="W08010">62</ns2:term>
+                                <ns2:term ns2:id="W08013">Lomma</ns2:term>
+                                <ns2:term ns2:id="W08011">01</ns2:term>
+                                <ns2:term ns2:id="W08014">Lomma</ns2:term>
+                                <ns2:term id="a00000">luis , Peter Ernst </ns2:term>
+                            </ns2:group> - - - Här följer resten av rapporten - - </ns2:report>
+                    </ns2:reports>
+                </xmlReply>
+                <xmlReply>
+                    <ns2:reports ns2:lang="swe" 
+                        xmlns:ns2="https://www.uc.se.schemas/ucOrderReply/">
+                        <ns2:report id="9003299139" ns2:index="0" ns2:name="Mario Loera Lozano" ns2:styp="3">
+                            <ns2:group id="123" ns2:index="0" ns2:key="" ns2:name="IDuppgifter, fysiker">
+                                <ns2:term ns2:id="W08001">9480109375</ns2:term>
+                                <ns2:term ns2:id="W08002">4801093750</ns2:term>
+                                <ns2:term ns2:id="W08003">Peter 'Ernst' Peltonen</ns2:term>
+                                <ns2:term ns2:id="W08004">Barong 3</ns2:term>
+                                <ns2:term ns2:id="W08005">23072</ns2:term>
+                                <ns2:term ns2:id="W08006">Tygelsjö</ns2:term>
+                                <ns2:term ns2:id="W08007">5905104948</ns2:term>
+                                <ns2:term ns2:id="W08008">Helga Peltonen</ns2:term>
+                                <ns2:term ns2:id="W08015">199510</ns2:term>
+                                <ns2:term ns2:id="W08045">Registrerat sedan 1995-10 </ns2:term>
+                                <ns2:term ns2:id="W08018">N </ns2:term>
+                                <ns2:term ns2:id="W08027" />
+                                <ns2:term ns2:id="W08030">2</ns2:term>
+                                <ns2:term ns2:id="W08043">no data</ns2:term>
+                                <ns2:term ns2:id="W08031">199508</ns2:term>
+                                <ns2:term ns2:id="W08036">2003-11-01</ns2:term>
+                                <ns2:term ns2:id="W08009">12</ns2:term>
+                                <ns2:term ns2:id="W08012">Skåne</ns2:term>
+                                <ns2:term ns2:id="W08010">62</ns2:term>
+                                <ns2:term ns2:id="W08013">Lomma</ns2:term>
+                                <ns2:term ns2:id="W08011">01</ns2:term>
+                                <ns2:term ns2:id="W08014">Lomma</ns2:term>
+                                <ns2:term id="a12345">Mario Loera</ns2:term>
+                            </ns2:group> - - - Här följer resten av rapporten - - </ns2:report>
+                    </ns2:reports>
+                </xmlReply>
+            </ucReport>
+        </ucReply>
+    </soapenv:Body>
+</soapenv:Envelope> 

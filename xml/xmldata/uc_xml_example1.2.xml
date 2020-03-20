@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:ucReply xmlns:ns1="http://www.uc.se/schemas/ucOrderRequest/" 
+            xmlns:ns2="http://www.uc.se/schemas/ucOrderReply/">
+            <ns2:status ns2:result="ok" />
+            <ns2:ucReport>
+                <ns2:xmlReply>
+                    <ns2:reports ns2:lang="swe">
+                        <ns2:report ns2:index="0" ns2:styp="3" ns2:name="Nematallah Sadriankord" ns2:id="6409071492">
+                            <ns2:group ns2:name="ID-uppgifter, fysiker" ns2:key="" ns2:index="0" ns2:id="W080">
+                                <ns2:term ns2:id="W08001">9640907149</ns2:term>
+                                <ns2:term ns2:id="W08002">6409071492</ns2:term>
+                                <ns2:term ns2:id="W08003">Nematallah Sadriankord</ns2:term>
+                                <ns2:term ns2:id="W08004">Vegagatan 5 Lgh 4078</ns2:term>
+                                <ns2:term ns2:id="W08005">17234</ns2:term>
+                                <ns2:term ns2:id="W08006">Sundbyberg</ns2:term>
+                                <ns2:term ns2:id="W08018">N</ns2:term>
+                                <ns2:term ns2:id="W08027" />
+                                <ns2:term ns2:id="W08030">4</ns2:term>
+                                <ns2:term ns2:id="W08043">Skild sedan 2016-07</ns2:term>
+                                <ns2:term ns2:id="W08031">201607</ns2:term>
+                                <ns2:term ns2:id="W08036">2018-11-01</ns2:term>
+                                <ns2:term ns2:id="W08009">01</ns2:term>
+                                <ns2:term ns2:id="W08012">Stockholms</ns2:term>
+                                <ns2:term ns2:id="W08010">39</ns2:term>
+                                <ns2:term ns2:id="W08013">Upplands-Bro</ns2:term>
+                                <ns2:term ns2:id="W08011">00</ns2:term>
+                                <ns2:term ns2:id="W08014" />
+                                <ns2:term ns2:id="W08035">Sadriankord, Nematallah</ns2:term>
+                                <ns2:term ns2:id="W08049">S</ns2:term>
+                                <ns2:term ns2:id="W08050">c/o Box 4078</ns2:term>
+                                <ns2:term ns2:id="W08070">Sadriankord, Nematallah</ns2:term>
+                                <ns2:term ns2:id="W08071">Vegagatan 5 Lgh 4078</ns2:term>
+                                <ns2:term ns2:id="W08072">Sundbyberg</ns2:term>
+                                <ns2:term ns2:id="W08083">Nematallah</ns2:term>
+                                <ns2:term ns2:id="W08084">Sadriankord</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Obstexter" ns2:key="" ns2:index="0" ns2:id="W121">
+                                <ns2:term ns2:id="W12101">Obs Personen har särskild postadress.</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Obstexter" ns2:key="" ns2:index="1" ns2:id="W127">
+                                <ns2:term ns2:id="W12701">Observera att inte samtliga kreditgivare rapporterar in dagliga förändringar.</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Folkbokföringsinformation" ns2:key="" ns2:index="0" ns2:id="W240">
+                                <ns2:term ns2:id="W24001">c/o Farahnaz Sadriankord</ns2:term>
+                                <ns2:term ns2:id="W24003">Etsarvägen 5</ns2:term>
+                                <ns2:term ns2:id="W24004">19638</ns2:term>
+                                <ns2:term ns2:id="W24005">Kungsängen</ns2:term>
+                                <ns2:term ns2:id="W24080">c/o Farahnaz Sadriankord</ns2:term>
+                                <ns2:term ns2:id="W24082">Etsarvägen 5</ns2:term>
+                                <ns2:term ns2:id="W24083">19638</ns2:term>
+                                <ns2:term ns2:id="W24084">Kungsängen</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name=" " ns2:key="" ns2:index="0" ns2:id="W4C0">
+                                <ns2:term ns2:id="W4C001">1</ns2:term>
+                                <ns2:term ns2:id="W4C002">0</ns2:term>
+                                <ns2:term ns2:id="W4C003">0</ns2:term>
+                                <ns2:term ns2:id="W4C004">0</ns2:term>
+                                <ns2:term ns2:id="W4C005">0</ns2:term>
+                                <ns2:term ns2:id="W4C009">8011</ns2:term>
+                                <ns2:term ns2:id="W4C013">8011</ns2:term>
+                                <ns2:term ns2:id="W4C016">801</ns2:term>
+                                <ns2:term ns2:id="W4C022">1</ns2:term>
+                                <ns2:term ns2:id="W4C024">3,70 %</ns2:term>
+                                <ns2:term ns2:id="W4C025">3,70 %</ns2:term>
+                                <ns2:term ns2:id="W4C026">3,12 %</ns2:term>
+                                <ns2:term ns2:id="W4C027">3,12 %</ns2:term>
+                                <ns2:term ns2:id="W4C028">1</ns2:term>
+                                <ns2:term ns2:id="W4C029">0</ns2:term>
+                                <ns2:term ns2:id="W4C030">0</ns2:term>
+                                <ns2:term ns2:id="W4C031">1</ns2:term>
+                                <ns2:term ns2:id="W4C032">0</ns2:term>
+                                <ns2:term ns2:id="W4C034">1</ns2:term>
+                                <ns2:term ns2:id="W4C036">100,00 %</ns2:term>
+                                <ns2:term ns2:id="W4C037">0,00 %</ns2:term>
+                                <ns2:term ns2:id="W4C038">0,00 %</ns2:term>
+                                <ns2:term ns2:id="W4C039">100,00 %</ns2:term>
+                                <ns2:term ns2:id="W4C040">0,00 %</ns2:term>
+                                <ns2:term ns2:id="W4C041">90,00 %</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="0" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20190331</ns2:term>
+                                <ns2:term ns2:id="W45002">8011</ns2:term>
+                                <ns2:term ns2:id="W45008">1</ns2:term>
+                                <ns2:term ns2:id="W45009">1</ns2:term>
+                                <ns2:term ns2:id="W45022">10000</ns2:term>
+                                <ns2:term ns2:id="W45024">8011</ns2:term>
+                                <ns2:term ns2:id="W45026">0</ns2:term>
+                                <ns2:term ns2:id="W45030">4</ns2:term>
+                                <ns2:term ns2:id="W45031">0</ns2:term>
+                                <ns2:term ns2:id="W45033">1</ns2:term>
+                                <ns2:term ns2:id="W45034">1</ns2:term>
+                                <ns2:term ns2:id="W45036">10000</ns2:term>
+                                <ns2:term ns2:id="W45041">1</ns2:term>
+                                <ns2:term ns2:id="W45045">8011</ns2:term>
+                                <ns2:term ns2:id="W45046">10000</ns2:term>
+                                <ns2:term ns2:id="W45051">1</ns2:term>
+                                <ns2:term ns2:id="W45052">0</ns2:term>
+                                <ns2:term ns2:id="W45053">80,11 %</ns2:term>
+                                <ns2:term ns2:id="W45054">Nej</ns2:term>
+                                <ns2:term ns2:id="W45057">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="1" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20190131</ns2:term>
+                                <ns2:term ns2:id="W45002">6520</ns2:term>
+                                <ns2:term ns2:id="W45008">1</ns2:term>
+                                <ns2:term ns2:id="W45009">1</ns2:term>
+                                <ns2:term ns2:id="W45022">10000</ns2:term>
+                                <ns2:term ns2:id="W45024">6520</ns2:term>
+                                <ns2:term ns2:id="W45033">1</ns2:term>
+                                <ns2:term ns2:id="W45034">1</ns2:term>
+                                <ns2:term ns2:id="W45036">10000</ns2:term>
+                                <ns2:term ns2:id="W45041">1</ns2:term>
+                                <ns2:term ns2:id="W45045">6520</ns2:term>
+                                <ns2:term ns2:id="W45046">10000</ns2:term>
+                                <ns2:term ns2:id="W45051">1</ns2:term>
+                                <ns2:term ns2:id="W45052">0</ns2:term>
+                                <ns2:term ns2:id="W45053">65,20 %</ns2:term>
+                                <ns2:term ns2:id="W45054">Nej</ns2:term>
+                                <ns2:term ns2:id="W45057">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="2" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20181130</ns2:term>
+                                <ns2:term ns2:id="W45002">9473</ns2:term>
+                                <ns2:term ns2:id="W45008">1</ns2:term>
+                                <ns2:term ns2:id="W45009">1</ns2:term>
+                                <ns2:term ns2:id="W45022">10000</ns2:term>
+                                <ns2:term ns2:id="W45024">9473</ns2:term>
+                                <ns2:term ns2:id="W45033">1</ns2:term>
+                                <ns2:term ns2:id="W45034">1</ns2:term>
+                                <ns2:term ns2:id="W45036">10000</ns2:term>
+                                <ns2:term ns2:id="W45041">1</ns2:term>
+                                <ns2:term ns2:id="W45045">9473</ns2:term>
+                                <ns2:term ns2:id="W45046">10000</ns2:term>
+                                <ns2:term ns2:id="W45051">1</ns2:term>
+                                <ns2:term ns2:id="W45052">0</ns2:term>
+                                <ns2:term ns2:id="W45053">94,73 %</ns2:term>
+                                <ns2:term ns2:id="W45054">Nej</ns2:term>
+                                <ns2:term ns2:id="W45057">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="3" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20180930</ns2:term>
+                                <ns2:term ns2:id="W45002">9990</ns2:term>
+                                <ns2:term ns2:id="W45008">1</ns2:term>
+                                <ns2:term ns2:id="W45009">1</ns2:term>
+                                <ns2:term ns2:id="W45022">10000</ns2:term>
+                                <ns2:term ns2:id="W45024">9990</ns2:term>
+                                <ns2:term ns2:id="W45033">1</ns2:term>
+                                <ns2:term ns2:id="W45034">1</ns2:term>
+                                <ns2:term ns2:id="W45036">10000</ns2:term>
+                                <ns2:term ns2:id="W45041">1</ns2:term>
+                                <ns2:term ns2:id="W45045">9990</ns2:term>
+                                <ns2:term ns2:id="W45046">10000</ns2:term>
+                                <ns2:term ns2:id="W45051">1</ns2:term>
+                                <ns2:term ns2:id="W45052">0</ns2:term>
+                                <ns2:term ns2:id="W45053">99,90 %</ns2:term>
+                                <ns2:term ns2:id="W45054">Nej</ns2:term>
+                                <ns2:term ns2:id="W45057">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="4" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20180731</ns2:term>
+                                <ns2:term ns2:id="W45002">9604</ns2:term>
+                                <ns2:term ns2:id="W45008">1</ns2:term>
+                                <ns2:term ns2:id="W45009">1</ns2:term>
+                                <ns2:term ns2:id="W45022">10000</ns2:term>
+                                <ns2:term ns2:id="W45024">9604</ns2:term>
+                                <ns2:term ns2:id="W45033">1</ns2:term>
+                                <ns2:term ns2:id="W45034">1</ns2:term>
+                                <ns2:term ns2:id="W45036">10000</ns2:term>
+                                <ns2:term ns2:id="W45041">1</ns2:term>
+                                <ns2:term ns2:id="W45045">9604</ns2:term>
+                                <ns2:term ns2:id="W45046">10000</ns2:term>
+                                <ns2:term ns2:id="W45051">1</ns2:term>
+                                <ns2:term ns2:id="W45052">0</ns2:term>
+                                <ns2:term ns2:id="W45053">96,04 %</ns2:term>
+                                <ns2:term ns2:id="W45054">Nej</ns2:term>
+                                <ns2:term ns2:id="W45057">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Kreditengagemangsuppgifter" ns2:key="" ns2:index="5" ns2:id="W450">
+                                <ns2:term ns2:id="W45001">20180531</ns2:term>
+                                <ns2:term ns2:id="W45008">0</ns2:term>
+                                <ns2:term ns2:id="W45009">0</ns2:term>
+                                <ns2:term ns2:id="W45033">0</ns2:term>
+                                <ns2:term ns2:id="W45034">0</ns2:term>
+                                <ns2:term ns2:id="W45045">0</ns2:term>
+                                <ns2:term ns2:id="W45046">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Händelser kreditengagemang" ns2:key="196409071492" ns2:index="0" ns2:id="W46A">
+                                <ns2:term ns2:id="W46A01">20190401</ns2:term>
+                                <ns2:term ns2:id="W46A02">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Summering händelser kreditengagemang" ns2:key="196409071492" ns2:index="0" ns2:id="W46B">
+                                <ns2:term ns2:id="W46B01">20190401</ns2:term>
+                                <ns2:term ns2:id="W46B02">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Inkomstuppgifter" ns2:key="2018" ns2:index="0" ns2:id="W491">
+                                <ns2:term ns2:id="W49101">2018</ns2:term>
+                                <ns2:term ns2:id="W49117">216</ns2:term>
+                                <ns2:term ns2:id="W49119">&lt;1</ns2:term>
+                                <ns2:term ns2:id="W49122">216</ns2:term>
+                                <ns2:term ns2:id="W49141">43</ns2:term>
+                                <ns2:term ns2:id="W49191">43</ns2:term>
+                                <ns2:term ns2:id="W49192">216</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Inkomstuppgifter" ns2:key="2017" ns2:index="1" ns2:id="W491">
+                                <ns2:term ns2:id="W49101">2017</ns2:term>
+                                <ns2:term ns2:id="W49117">0</ns2:term>
+                                <ns2:term ns2:id="W49119">0</ns2:term>
+                                <ns2:term ns2:id="W49122">0</ns2:term>
+                                <ns2:term ns2:id="W49141">0</ns2:term>
+                                <ns2:term ns2:id="W49192">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Inkomstuppgifter" ns2:key="2018" ns2:index="0" ns2:id="W495">
+                                <ns2:term ns2:id="W49501">2018</ns2:term>
+                                <ns2:term ns2:id="W49517">216200</ns2:term>
+                                <ns2:term ns2:id="W49519">200</ns2:term>
+                                <ns2:term ns2:id="W49522">216200</ns2:term>
+                                <ns2:term ns2:id="W49541">43200</ns2:term>
+                                <ns2:term ns2:id="W49591">43200</ns2:term>
+                                <ns2:term ns2:id="W49592">216000</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Inkomstuppgifter" ns2:key="2017" ns2:index="1" ns2:id="W495">
+                                <ns2:term ns2:id="W49501">2017</ns2:term>
+                                <ns2:term ns2:id="W49517">0</ns2:term>
+                                <ns2:term ns2:id="W49519">0</ns2:term>
+                                <ns2:term ns2:id="W49522">0</ns2:term>
+                                <ns2:term ns2:id="W49541">0</ns2:term>
+                                <ns2:term ns2:id="W49592">0</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key=" 00000" ns2:index="0" ns2:id="W640">
+                                <ns2:term ns2:id="W64001">7</ns2:term>
+                                <ns2:term ns2:id="W64016">0</ns2:term>
+                                <ns2:term ns2:id="W64020">7</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="190412" ns2:index="1" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20190412</ns2:term>
+                                <ns2:term ns2:id="W64004">Freedom Finance Kreditservice AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">L</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="190213" ns2:index="2" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20190213</ns2:term>
+                                <ns2:term ns2:id="W64004">Sambla AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">L</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="180709" ns2:index="3" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20180709</ns2:term>
+                                <ns2:term ns2:id="W64004">EnterCard Group AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">C</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="180704" ns2:index="4" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20180704</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">Q</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="180704" ns2:index="5" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20180704</ns2:term>
+                                <ns2:term ns2:id="W64004">Sambla AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">L</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="180617" ns2:index="6" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20180617</ns2:term>
+                                <ns2:term ns2:id="W64004">Axo Finans AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">L</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Frågor" ns2:key="180609" ns2:index="7" ns2:id="W640">
+                                <ns2:term ns2:id="W64002">20180609</ns2:term>
+                                <ns2:term ns2:id="W64004">Lendo AB/Compricer AB</ns2:term>
+                                <ns2:term ns2:id="W64005">0</ns2:term>
+                                <ns2:term ns2:id="W64007">L</ns2:term>
+                                <ns2:term ns2:id="W64011">1</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Mallbeslut" ns2:key="" ns2:index="0" ns2:id="W131">
+                                <ns2:term ns2:id="W13105">P</ns2:term>
+                                <ns2:term ns2:id="W13111">10,0 %</ns2:term>
+                                <ns2:term ns2:id="W13130">J</ns2:term>
+                                <ns2:term ns2:id="W13131">N</ns2:term>
+                                <ns2:term ns2:id="W13132">Riskprognos</ns2:term>
+                                <ns2:term ns2:id="W13136">R</ns2:term>
+                                <ns2:term ns2:id="W13139">01000</ns2:term>
+                                <ns2:term ns2:id="W13141">0000400000</ns2:term>
+                                <ns2:term ns2:id="W13147">10,01 %</ns2:term>
+                                <ns2:term ns2:id="W13149">Prövning enl mall  LNE</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Orsakstexter" ns2:key="" ns2:index="0" ns2:id="W132">
+                                <ns2:term ns2:id="W13202">Prövad kredit kommer att prövas och bedömas av kreditgivaren/frågeställaren</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Mallinformation" ns2:key="" ns2:index="0" ns2:id="W133">
+                                <ns2:term ns2:id="W13301">LNE</ns2:term>
+                                <ns2:term ns2:id="W13302">LNE, LENDIFY AB</ns2:term>
+                                <ns2:term ns2:id="W13309">J</ns2:term>
+                                <ns2:term ns2:id="W13350">N</ns2:term>
+                                <ns2:term ns2:id="W13351">LNE</ns2:term>
+                                <ns2:term ns2:id="W13352">2</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name=" " ns2:key="" ns2:index="0" ns2:id="W990">
+                                <ns2:term ns2:id="W99004">3</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Diverseuppgifter" ns2:key="" ns2:index="0" ns2:id="W980">
+                                <ns2:term ns2:id="W98001">sammanfattning</ns2:term>
+                                <ns2:term ns2:id="W98002">handelser</ns2:term>
+                                <ns2:term ns2:id="W98003">kreditomdome</ns2:term>
+                                <ns2:term ns2:id="W98004">allmant</ns2:term>
+                                <ns2:term ns2:id="W98005">inkomst</ns2:term>
+                                <ns2:term ns2:id="W98006">engagemang</ns2:term>
+                                <ns2:term ns2:id="W98007">anm</ns2:term>
+                                <ns2:term ns2:id="W98008">fragor</ns2:term>
+                                <ns2:term ns2:id="W98021">F01</ns2:term>
+                                <ns2:term ns2:id="W98023">4</ns2:term>
+                                <ns2:term ns2:id="W98024">0</ns2:term>
+                                <ns2:term ns2:id="W98026">0000400000</ns2:term>
+                                <ns2:term ns2:id="W98029">0</ns2:term>
+                                <ns2:term ns2:id="W98036">0</ns2:term>
+                                <ns2:term ns2:id="W98038">J</ns2:term>
+                                <ns2:term ns2:id="W98040">Webservices 8</ns2:term>
+                                <ns2:term ns2:id="W98041">Lendify AB (Publ)</ns2:term>
+                                <ns2:term ns2:id="W98042">20190412</ns2:term>
+                                <ns2:term ns2:id="W98051">3</ns2:term>
+                                <ns2:term ns2:id="W98052">1</ns2:term>
+                                <ns2:term ns2:id="W98054">N</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="0" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H02</ns2:term>
+                                <ns2:term ns2:id="W98102">Sammanfattning</ns2:term>
+                                <ns2:term ns2:id="W98103">sammanfattning</ns2:term>
+                                <ns2:term ns2:id="W98104">#H02</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="1" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H04</ns2:term>
+                                <ns2:term ns2:id="W98102">Senast registrerade händelser</ns2:term>
+                                <ns2:term ns2:id="W98103">handelser</ns2:term>
+                                <ns2:term ns2:id="W98104">#H04</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="2" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H06</ns2:term>
+                                <ns2:term ns2:id="W98102">Kreditomdöme</ns2:term>
+                                <ns2:term ns2:id="W98103">kreditomdome</ns2:term>
+                                <ns2:term ns2:id="W98104">#H06</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="3" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H08</ns2:term>
+                                <ns2:term ns2:id="W98102">Allmänna uppgifter</ns2:term>
+                                <ns2:term ns2:id="W98103">allmant</ns2:term>
+                                <ns2:term ns2:id="W98104">#H08</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="4" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H12</ns2:term>
+                                <ns2:term ns2:id="W98102">Inkomstuppgifter</ns2:term>
+                                <ns2:term ns2:id="W98103">inkomst</ns2:term>
+                                <ns2:term ns2:id="W98104">#H12</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="5" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H20</ns2:term>
+                                <ns2:term ns2:id="W98102">Kreditengagemang</ns2:term>
+                                <ns2:term ns2:id="W98103">engagemang</ns2:term>
+                                <ns2:term ns2:id="W98104">#H20</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="6" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H22</ns2:term>
+                                <ns2:term ns2:id="W98102">Betalningsanmärkningar och andra anmärkningar</ns2:term>
+                                <ns2:term ns2:id="W98103">anm</ns2:term>
+                                <ns2:term ns2:id="W98104">#H22</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="7" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H24</ns2:term>
+                                <ns2:term ns2:id="W98102">Senaste frågor hos UC</ns2:term>
+                                <ns2:term ns2:id="W98103">fragor</ns2:term>
+                                <ns2:term ns2:id="W98104">#H24</ns2:term>
+                            </ns2:group>
+                            <ns2:group ns2:name="Aktuella bildval" ns2:key="" ns2:index="8" ns2:id="W981">
+                                <ns2:term ns2:id="W98101">H30</ns2:term>
+                                <ns2:term ns2:id="W98102">UC:s ansvar</ns2:term>
+                                <ns2:term ns2:id="W98103" />
+                                <ns2:term ns2:id="W98104">#H30</ns2:term>
+                            </ns2:group>
+                        </ns2:report>
+                    </ns2:reports>
+                </ns2:xmlReply>
+                <ns2:htmlReply>&lt;!--Ù--&gt;&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt; &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;UC - Rapport Version 1.7.2&lt;/title&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/uccss/2012/ucdivoverview.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/uccss/2012/main.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/duplo/2012/duplo.css"/&gt; &lt;link rel="stylesheet" href="https://www.uc.se/ucwebresources/css/duplo/2012/table.css"/&gt; &lt;/head&gt; &lt;body style="padding-right:10px;"&gt; &lt;div id="rapport"&gt; &lt;table class="xmlrapport" width="100%" cellpadding="0" cellspacing="0" border="0"&gt; &lt;tr&gt; &lt;td class="xmlrapport" colspan="2"&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="xmlrapport" colspan="2"&gt; &lt;img src="https://www.uc.se/ucwebresources/img/gif/ucgif/2012/uclogo-kreditupplysning.gif" alt=""/&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;hr class="hrblue"/&gt; &lt;div class="nopyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="50%"/&gt; &lt;col width="50%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td valign="top" class="content"&gt; &lt;h5 style="text-align: left"&gt;Personupplysning&lt;/h5&gt; &lt;h6&gt;Avseende&lt;/h6&gt; &lt;p&gt;Personnummer  				640907-1492&lt;/p&gt; &lt;p&gt;Sadriankord, Nematallah&lt;/p&gt; &lt;h6&gt;Beställd av&lt;/h6&gt; &lt;p&gt;Lendify AB (Publ)&lt;/p&gt; &lt;p&gt;Webservices 8&lt;/p&gt; &lt;p&gt;Östermalmstorg 1&lt;/p&gt; &lt;p&gt;114 42 Stockholm&lt;/p&gt; &lt;h6&gt;Beställd&lt;/h6&gt; &lt;p&gt;2019-04-12&lt;/p&gt; &lt;/td&gt; &lt;td valign="top"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="6%"/&gt; &lt;col width="94%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td&gt; &lt;/td&gt; &lt;th&gt;Innehåll&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;1 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H02"&gt;Sammanfattning&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;2 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H04"&gt;Senast registrerade händelser&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;3 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H06"&gt;Kreditomdöme&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;4 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H08"&gt;Allmänna uppgifter&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;5 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H12"&gt;Inkomstuppgifter&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;6 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H20"&gt;Kreditengagemang&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;7 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H22"&gt;Betalningsanmärkningar och andra anmärkningar&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="number"&gt;8 								  							&lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H24"&gt;Senaste frågor hos UC&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt; &lt;/td&gt; &lt;td&gt; &lt;a class="xmlrapport" href="#H30"&gt;UC:s ansvar&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;hr class="hrblue"/&gt; &lt;a class="xmlrapport" name="H02"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;1. Sammanfattning&lt;/h3&gt; &lt;div class="nopyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="50%"/&gt; &lt;col width="20%"/&gt; &lt;col width="30%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td&gt;Sadriankord, Nematallah&lt;/td&gt; &lt;td class="overtd"&gt;Personnummer&lt;/td&gt; &lt;td&gt;640907-1492&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;c/o Box 4078&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Vegagatan 5 Lgh 4078&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;172 34 Sundbyberg&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;br/&gt; &lt;table class="margintop" width="100%" cellpadding="0" cellspacing="2" border="0"&gt; &lt;tr&gt; &lt;td width="50%" valign="top" align="left" class="bordertot"&gt; &lt;div class="nopyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="60%"/&gt; &lt;col width="40%"/&gt; &lt;/colgroup&gt; &lt;colgroup&gt; &lt;col width="70%"/&gt; &lt;col width="30%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd paddtop"&gt;Kreditråd&lt;/td&gt; &lt;td class="right"&gt;Prövning&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd paddtop"&gt;Anmärkningar&lt;/td&gt; &lt;td class="paddtop right"&gt;Inga reg&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Ansökningar&lt;/td&gt; &lt;td class="right"&gt;Inga reg&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal frågor&lt;/td&gt; &lt;td class="right"&gt;7 st&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd paddtop"&gt;Krediter per 2019-03&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Utnyttjade&lt;/td&gt; &lt;td class="right"&gt;8.011 kr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;varav kontokrediter&lt;/td&gt; &lt;td class="right"&gt;8.011 kr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Beviljade&lt;/td&gt; &lt;td class="right"&gt;10.000 kr&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/td&gt; &lt;td width="50%" valign="top" align="left" class="bordertot"&gt; &lt;div class="nopyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="60%"/&gt; &lt;col width="40%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd paddtop"&gt;Inkomstuppgifter för inkomståret 2018&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Överskott av tjänst&lt;/td&gt; &lt;td class="right"&gt;216 tkr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Taxerad förvärvsinkomst&lt;/td&gt; &lt;td class="right"&gt;216 tkr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Underskott av kapital&lt;/td&gt; &lt;td class="right"&gt;&amp;lt;1 tkr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Sammanräknat netto efter avdrag, före skatt&lt;/td&gt; &lt;td class="right"&gt;216 tkr&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;div class="fet"&gt;Obstexter&lt;/div&gt; &lt;div class="normal"&gt; &lt;b&gt;Obs Personen har särskild postadress.&lt;/b&gt; &lt;/div&gt; &lt;a class="xmlrapport" name="H04"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;2. Senast registrerade händelser&lt;/h3&gt; &lt;div class="normal"&gt;Inga händelser har registrerats under de senaste 12 månaderna.&lt;/div&gt; &lt;a class="xmlrapport" name="H06"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;3. Kreditomdöme&lt;/h3&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="40%"/&gt; &lt;col width="60%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Kreditråd&lt;/td&gt; &lt;td&gt;Prövad kredit kommer att prövas och bedömas av kreditgivaren/frågeställaren&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="40%"/&gt; &lt;col width="60%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Riskprognos  	&lt;/td&gt; &lt;td&gt;10,0 % (0% anger lägsta och 100% högsta risk)&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="normal"&gt;Klassificeringen indikerar på sannolikheten att en person kommer att få betalningsproblem inom de närmaste 12 månaderna. Uppgifter utöver riskprognosen kan givetvis ha betydelse för er riskbedömning.&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="40%"/&gt; &lt;col width="15%"/&gt; &lt;col width="45%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Sökt kredit&lt;/td&gt; &lt;td class="right"&gt;400.000 kr&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="normal"&gt;Kreditrådet bygger på era policyregler tillämpade på uppgifter i denna rapport. Kreditprövning enligt mall 	 		LNE&lt;/div&gt; &lt;a class="xmlrapport" name="H08"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;4. Allmänna uppgifter&lt;/h3&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;tr&gt; &lt;td width="40%" class="overtd"&gt;Civilstånd&lt;/td&gt; &lt;td width="60%" class="informative"&gt;Skild sedan 2016-07&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Folkbokförd&lt;/td&gt; &lt;td&gt;Stockholms län, Upplands-Bro kommun&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Folkbokförd före 2018-11-01&lt;/td&gt; &lt;td&gt;Stockholms län, Upplands-Bro kommun&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Folkbokföringsadress&lt;/td&gt; &lt;td&gt;c/o Farahnaz Sadriankord&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt; &lt;/td&gt; &lt;td&gt;Etsarvägen 5&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt; &lt;/td&gt; &lt;td&gt;196 38 Kungsängen&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;a class="xmlrapport" name="H12"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;5. Inkomstuppgifter&lt;/h3&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;tr&gt; &lt;th width="35%" class="overth"&gt;Uppgifter i tkr för inkomståret&lt;/th&gt; &lt;th width="15%" class="overth right"&gt;2018&lt;/th&gt; &lt;th width="15%" class="overth right"&gt;2017&lt;/th&gt; &lt;th width="35%" class="overth"&gt; &lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Överskott av tjänst&lt;/td&gt; &lt;td align="right"&gt;216&lt;/td&gt; &lt;td align="right"&gt;0&lt;/td&gt; &lt;td&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Taxerad förvärvsinkomst&lt;/td&gt; &lt;td align="right"&gt;216&lt;/td&gt; &lt;td align="right"&gt;0&lt;/td&gt; &lt;td&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Underskott av kapital&lt;/td&gt; &lt;td align="right"&gt;&amp;lt;1&lt;/td&gt; &lt;td align="right"&gt;0&lt;/td&gt; &lt;td&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Sammanräknat netto efter avdrag, före skatt&lt;/td&gt; &lt;td align="right"&gt;216&lt;/td&gt; &lt;td align="right"&gt;0&lt;/td&gt; &lt;td&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Slutlig skatt&lt;/td&gt; &lt;td align="right"&gt;43&lt;/td&gt; &lt;td align="right"&gt;0&lt;/td&gt; &lt;td&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;a class="xmlrapport" name="H20"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;6. Kreditengagemang&lt;/h3&gt; &lt;div class="normal"&gt;Sammanställning av till UC inrapporterade krediter.&lt;/div&gt; &lt;div class="normal"&gt; Kredit anges i sin helhet för var och en som är solidariskt ansvarig.&lt;/div&gt; &lt;div class="fet"&gt;Krediternas utveckling under de senaste 12 månaderna i kr.&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="20%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;th class="overth"&gt;Skuld per&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-03&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-01&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-11&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-09&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-07&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-05&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Blanco/Borgen&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Avbetalning&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Kontokrediter&lt;/td&gt; &lt;td class="right"&gt;8.011&lt;/td&gt; &lt;td class="right"&gt;6.520&lt;/td&gt; &lt;td class="right"&gt;9.473&lt;/td&gt; &lt;td class="right"&gt;9.990&lt;/td&gt; &lt;td class="right"&gt;9.604&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Fastighet&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Bostadsrätt&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Totalt utnyttjat&lt;/td&gt; &lt;td class="right"&gt;8.011&lt;/td&gt; &lt;td class="right"&gt;6.520&lt;/td&gt; &lt;td class="right"&gt;9.473&lt;/td&gt; &lt;td class="right"&gt;9.990&lt;/td&gt; &lt;td class="right"&gt;9.604&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Totalt beviljat&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal krediter&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal kreditgivare&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Utnyttjat hos er&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Beviljat av er&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="fet"&gt;Blancolån&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="20%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;th class="overth"/&gt; &lt;th class="overth right nowrap"&gt;2019-03&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-01&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-11&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-09&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-07&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-05&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo med medlåntagare&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="fet"&gt;Avbetalningskredit&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="20%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;th class="overth"/&gt; &lt;th class="overth right nowrap"&gt;2019-03&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-01&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-11&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-09&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-07&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-05&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo med medlåntagare&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="fet"&gt;Kontokredit&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="20%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;th class="overth"/&gt; &lt;th class="overth right nowrap"&gt;2019-03&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-01&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-11&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-09&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-07&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-05&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo&lt;/td&gt; &lt;td class="right"&gt;8.011&lt;/td&gt; &lt;td class="right"&gt;6.520&lt;/td&gt; &lt;td class="right"&gt;9.473&lt;/td&gt; &lt;td class="right"&gt;9.990&lt;/td&gt; &lt;td class="right"&gt;9.604&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Limit&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;10.000&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;1&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Limit med medlåntagare&lt;/td&gt; &lt;td class="right"&gt;0&lt;/td&gt; &lt;td class="right"&gt;0&lt;/td&gt; &lt;td class="right"&gt;0&lt;/td&gt; &lt;td class="right"&gt;0&lt;/td&gt; &lt;td class="right"&gt;0&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Utnyttjandegrad&lt;/td&gt; &lt;td class="right"&gt;80,11 %&lt;/td&gt; &lt;td class="right"&gt;65,20 %&lt;/td&gt; &lt;td class="right"&gt;94,73 %&lt;/td&gt; &lt;td class="right"&gt;99,90 %&lt;/td&gt; &lt;td class="right"&gt;96,04 %&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Övertrassering&lt;/td&gt; &lt;td class="right"&gt;Nej&lt;/td&gt; &lt;td class="right"&gt;Nej&lt;/td&gt; &lt;td class="right"&gt;Nej&lt;/td&gt; &lt;td class="right"&gt;Nej&lt;/td&gt; &lt;td class="right"&gt;Nej&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="fet"&gt;Bolån&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="20%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;col width="13%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;th class="overth"/&gt; &lt;th class="overth right nowrap"&gt;2019-03&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2019-01&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-11&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-09&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-07&lt;/th&gt; &lt;th class="overth right nowrap"&gt;2018-05&lt;/th&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo Fastighetslån&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo Bostadsrättslån&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Saldo med medlåntagare&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;td class="right"&gt;-&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="fet"&gt;Nyckeltal kreditregistret&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="50%"/&gt; &lt;col width="50%"/&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Aktuell skuldsättningsgrad&lt;/td&gt; &lt;td&gt;3,70 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Genomsnittlig skuldsättningsgrad 12 mån&lt;/td&gt; &lt;td&gt;3,12 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Genomsnittlig Utnyttjandegrad 12 mån&lt;/td&gt; &lt;td&gt;90,00 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Antal aktiva kontokrediter (saldo &amp;gt; 0 senaste året)&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring senaste 12 månaderna&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Nya krediter&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Nya blanco&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Nya avbetalning&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Nya kontokrediter&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Nya bolån (fastighet/bostadsrätt)&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring av skuldsättning 12 månader&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Total förändring i %&lt;/td&gt; &lt;td&gt;100,00 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring blanco&lt;/td&gt; &lt;td&gt;0,00 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring avbetalning&lt;/td&gt; &lt;td&gt;0,00 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring kontokredit&lt;/td&gt; &lt;td&gt;100,00 %&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="overtd"&gt;Förändring bolån (fastighet/bostadsrätt)&lt;/td&gt; &lt;td&gt;0,00 %&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;h5&gt;Obstexter&lt;/h5&gt; &lt;/div&gt; &lt;div class="normal"&gt; &lt;b&gt;Observera att inte samtliga kreditgivare rapporterar in dagliga förändringar.&lt;/b&gt; &lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table/&gt; &lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;div class="fet"&gt;Det finns inga inrapporterade förändringar av kreditengagemang sedan 2019-04-01&lt;/div&gt; &lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;div class="fet"&gt;Det finns inga inrapporterade summeringar av kreditengagemang sedan 2019-04-01&lt;/div&gt; &lt;/div&gt; &lt;a class="xmlrapport" name="H22"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;7. Betalningsanmärkningar och andra anmärkningar&lt;/h3&gt; &lt;div class="normal"&gt;Inga anmärkningar finns registrerade.&lt;/div&gt;   &lt;a class="xmlrapport" name="H24"&gt; &lt;/a&gt; &lt;h3 class="xmlrapport"&gt;8. Senaste frågor hos UC&lt;/h3&gt; &lt;div class="normal"&gt;Under de senaste 12 månaderna har 7 frågor registrerats hos UC.&lt;/div&gt; &lt;div class="pyjamas"&gt; &lt;table&gt; &lt;colgroup&gt; &lt;col width="15%"/&gt; &lt;col width="15%"/&gt; &lt;col width="3%"/&gt; &lt;col width="30%"/&gt; &lt;col width="37%"/&gt; &lt;/colgroup&gt; &lt;thead&gt; &lt;tr&gt; &lt;th class="overth"&gt;Datum&lt;/th&gt; &lt;th class="overth right nowrap"&gt;Belopp kr&lt;/th&gt; &lt;th&gt; &lt;/th&gt; &lt;th&gt; &lt;b&gt;Frågeställare&lt;/b&gt;  			namn ej obligatoriskt&lt;/th&gt; &lt;th&gt; &lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2019-04-12&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;Freedom Finance Kreditservice AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2019-02-13&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;Sambla AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2018-07-09&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;EnterCard Group AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2018-07-04&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td/&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2018-07-04&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;Sambla AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2018-06-17&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;Axo Finans AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class="nowrap"&gt;2018-06-09&lt;/td&gt; &lt;td align="right"/&gt; &lt;td/&gt; &lt;td&gt;Lendo AB/Compricer AB&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;a class="xmlrapport" name="H30"&gt; &lt;/a&gt; &lt;hr class="hrblue"/&gt; &lt;div class="storrubrik"&gt;UC:s ansvar&lt;/div&gt; &lt;div id="ansvar"&gt;UC:s upplysningar har sammanställts från källor som bedömts tillförlitliga. UC kan dock varken garantera källornas tillförlitlighet eller upplysningarnas fullständighet eller riktighet. UC påtar sig inte något ansvar för direkt eller indirekt förlust eller skada, av vad slag det vara må, som grundar sig på användandet av våra upplysningar.&lt;/div&gt; &lt;div class="litenfet"&gt;UC AB  ·  117 88 Stockholm  ·  Telefon 08-670 90 00 ·  www.uc.se&lt;/div&gt; &lt;hr class="hrblue"/&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;</ns2:htmlReply>
+                <ns2:reviewReply>&lt;!--Ù--&gt;&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt; &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;UC - Rapport Version 1.7.2&lt;/title&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/duplo/2012/classic.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/uccss/2012/ucdivoverview.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/uccss/2012/main.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/FSWeb/css/fscommand.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/duplo/2012/duplo.css"/&gt; &lt;link rel="stylesheet" type="text/css" href="https://www.uc.se/ucwebresources/css/duplo/2012/dropdown.css"/&gt; &lt;/head&gt; &lt;body style="padding-right:10px;"&gt; &lt;div class="detailframe"&gt; &lt;h2&gt;Översikt - Personupplysning&lt;/h2&gt; &lt;table class="center" cellspacing="0"&gt; &lt;tr&gt; &lt;td class="center"&gt; &lt;div class="container"&gt; &lt;div id="ucoverviewareaoversikt"&gt; &lt;div id="ucpoinfooversikt"&gt; &lt;div style="float:left;width:35em;"&gt; &lt;div class="H6" style="overflow:hidden;height:1.5em;margin:0;padding:0;" title="Nematallah Sadriankord"&gt;Nematallah Sadriankord&lt;/div&gt; &lt;div style="overflow:hidden;height:1.5em;" title="c/o Box 4078, Vegagatan 5 Lgh 4078 "&gt;c/o Box 4078, Vegagatan 5 Lgh 4078 &lt;/div&gt; &lt;div style="overflow:hidden;height:1.5em;"&gt;172 34 Sundbyberg &lt;/div&gt; &lt;/div&gt; &lt;div style="float:left;"&gt; &lt;div style="height:1.5em;"&gt;Persnr: 640907-1492&lt;/div&gt; &lt;div&gt; 						 &lt;/div&gt; &lt;div&gt;  						 &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div id="ucpoekonomi"&gt; &lt;h6&gt;Ekonomi&lt;/h6&gt; &lt;table cellspacing="0" class="ucpotable"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Sammanräknat inkomst (2018)&lt;/td&gt; &lt;td class="number"&gt;216&lt;/td&gt; &lt;td&gt;tkr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Underskott av kapital (2018)&lt;/td&gt; &lt;td class="number"&gt;&amp;lt;1&lt;/td&gt; &lt;td&gt;tkr&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class="ucpotable" cellspacing="0"&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Totalt antal krediter (per 190331  )&lt;/td&gt; &lt;td class="number"&gt;1&lt;/td&gt; &lt;td&gt;st&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Utnyttjade krediter totalt saldo&lt;/td&gt; &lt;td class="number"&gt;8011&lt;/td&gt; &lt;td&gt;kr&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Beviljade krediter total limit&lt;/td&gt; &lt;td class="number"&gt;10000&lt;/td&gt; &lt;td&gt;kr&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;div id="ucpohandelser"&gt; &lt;h6&gt;Händelser&lt;/h6&gt; &lt;table class="ucpotable" cellspacing="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;div style="position:absolute;margin-left:-2.5em;float:left;"&gt; &lt;img src="https://www.uc.se/ucwebresources/img/gif/ucgif/klockafalse.gif" alt=""/&gt; &lt;/div&gt;  Inga betalningsanmärkningar finns registrerade &lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class="ucpotable" cellspacing="0"&gt;&lt;tbody&gt; &lt;tr&gt; &lt;td colspan="2"/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Inga händelser har registrerats under de senaste 12 månaderna&lt;/td&gt; &lt;td/&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;div id="ucpoanalysoversikt"&gt; &lt;h6&gt;Analys&lt;/h6&gt; &lt;table class="ucpotable" cellspacing="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Inga orsakstexter finns att redovisa&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;table class="ucpotable" cellspacing="0"&gt; &lt;tbody&gt; 				 &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;div id="ucpoledningagare"&gt; &lt;h6&gt;Förfrågningar&lt;/h6&gt; &lt;table class="ucpotable" cellspacing="0"&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td/&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;Antal frågor senaste 12 månaderna&lt;/td&gt; &lt;td&gt;7&lt;/td&gt; &lt;td&gt;st&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;div id="ucpokredit"&gt;  Prövning enl mall  LNE&lt;br/&gt;  Riskprognos &lt;br/&gt;10,0 %&lt;br/&gt; &lt;img src="https://www.uc.se/ucwebresources/img/gif/ucgif/trafiksignal2.gif" alt="Trafiksignal"/&gt; &lt;br/&gt; &lt;br/&gt; &lt;br/&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;div id="ucbelowoverviewoversikt"&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;</ns2:reviewReply>
+            </ns2:ucReport>
+        </ns2:ucReply>
+    </soap:Body>
+</soap:Envelope>

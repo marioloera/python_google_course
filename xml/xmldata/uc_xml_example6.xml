@@ -1,0 +1,39 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<soapenv:Envelope xmlns:soapenv="https://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:soapenc="https://schemas.xmlsoap.org/soap/encoding/" 
+    xmlns:xsd="https://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ucReply xmlns="https://www.uc.se.schemas/ucOrderReply/">
+            <ns2:status ns2:result="ok" 
+                xmlns:ns2="https://www.uc.se.schemas/ucOrderReply/" />
+            <ucReport>
+                <xmlReply>
+                    <ns2:reports ns2:lang="swe" 
+                        xmlns:ns2="https://www.uc.se.schemas/ucOrderReply/">
+                        <ns2:report ns2:id="4801093750" ns2:index="0" ns2:name="Peter 'Ernst' Peltonen" ns2:styp="3">
+                            <ns2:group ns2:id="W070" ns2:index="0" ns2:key="" ns2:name="xxxxxxx">
+                                <ns2:term ns2:id="W07001">9480109375</ns2:term>
+                                <ns2:term ns2:id="W07002">4801093750</ns2:term>
+                                <ns2:term ns2:id="W07003">Peter 'Ernst' Peltonen</ns2:term>
+                                </ns2:group>
+                            <ns2:group ns2:id="W080" ns2:index="0" ns2:key="" ns2:name="IDuppgifter, fysiker">
+                                <ns2:term ns2:id="W08001">9480109375</ns2:term>
+                                <ns2:term ns2:id="W08002">4801093750</ns2:term>
+                                <ns2:term ns2:id="W08003">Peter 'Ernst' Peltonen</ns2:term>
+                                <ns2:term ns2:id="W08014">Lomma</ns2:term>
+                                <ns2:term ns2:id="W08035">Peltonen, Peter Ernst </ns2:term>
+                                </ns2:group>
+                            <ns2:group ns2:id="W080" ns2:index="1" ns2:key="11" ns2:name="mario">
+                                <ns2:term ns2:id="W08001">error</ns2:term>
+                                <ns2:term ns2:id="W08002">never</ns2:term>
+                                <ns2:term ns2:id="W08003">1234</ns2:term>
+                                <ns2:term ns2:id="W08035">3.1416</ns2:term>
+                                </ns2:group>
+                            </ns2:report>
+                    </ns2:reports>
+                </xmlReply>
+            </ucReport>
+        </ucReply>
+    </soapenv:Body>
+</soapenv:Envelope> 
