@@ -9,6 +9,8 @@ def some_other_fun():
     return bool(random.randint(0,1))
     # return True
 
+# change 2
+
 def main():
     checks = [
             (func1, 'error at func1'),
