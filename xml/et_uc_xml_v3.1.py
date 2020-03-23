@@ -5,6 +5,12 @@ import re
 pp = pprint.PrettyPrinter(indent=0)
 
 filename = 'xmldata\\uc_xml_example1.xml'
+#root = ET.fromstring(country_data_as_string)
+
+def get_uc_data(xml_string):
+    dt = None # dataframe
+    return dt
+    
 tree = ET.parse(filename)
 root = tree.getroot()
 
@@ -16,10 +22,6 @@ ucReport=ucReplay[1]
 # print(statusResult)
 
 
-xmlReplays = []
-regex_namespace = r'({.*}).*'
-regex_att = r'{.*}(.*)'
-namespace = re.search(regex_namespace, ucReport.tag)[1]
 
 class UCDataHeaders:
 
@@ -70,6 +72,11 @@ class UCDataHeaders:
 uc = UCDataHeaders()
 dbdfLendifyUserId = 'axf392de323'
 dbScoreID = 23988329
+
+xmlReplays = []
+regex_namespace = r'({.*}).*'
+regex_att = r'{.*}(.*)'
+namespace = re.search(regex_namespace, ucReport.tag)[1]
 
 
 for xmlReply in ucReport.findall(namespace+'xmlReply'):
