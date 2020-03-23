@@ -60,3 +60,11 @@ print(convert_distance(12)) # Should be: 12 miles equals 19.2 km
 print(convert_distance(5.5)) # Should be: 5.5 miles equals 8.8 km
 print(convert_distance(11)) # Should be: 11 miles equals 17.6 km
 
+records = 1002
+separator = len(str(records))
+print(separator)
+for index in range(records+1):
+    # mes = 'processed {i:6}/{rec}'.format(i=index, rec=records)
+    mes = 'processed {i:{sep}}/{rec}'.format(sep=separator, i=index, rec=records)
+
+    print(mes)
