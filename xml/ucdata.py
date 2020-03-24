@@ -6,8 +6,8 @@ import copy
 class UCData:
 
     def __init__(self):
-        # self.lendifyUserId = 'LendifyUserId' # 0
-        # self.scoreId = 'ScoreId' # 1
+        self.lendifyUserId = 'LendifyUserId' # 0
+        self.scoreId = 'ScoreId' # 1
         self.reportId = 'ReportId' # 2
         self.reportIndex = 'ReportIndex' # 3
         self.reportName = 'ReportName' # 4
@@ -22,8 +22,8 @@ class UCData:
     
     def __init_headers__(self):
         self.headers = [
-                    # self.lendifyUserId, # 0 
-                    # self.scoreId, # 1
+                    self.lendifyUserId, # 0 
+                    self.scoreId, # 1
                     self.reportId, # 2 
                     self.reportIndex, # 3
                     self.reportName, # 4 
@@ -50,39 +50,46 @@ class UCData:
         return
 
     def __get_ucReport__(self, root):
+
+        body = []
         for child in root:
             if 'Body' in child.tag:
                 body = child
 
+        ucReplay = []
         for child in body:
             if 'ucReply' in child.tag:
                 ucReplay = child
-
+        
+        ucReport = []
+        uc_replay_status = 'no ucReplay'
         for child in ucReplay:
             if 'ucReport' in child.tag:
                 ucReport = child
             elif 'status' in child.tag:
                 for att in child.attrib:
                     if 'result' in att:
-                        ucReplayStatus = child.attrib[att]
+                        uc_replay_status = child.attrib[att]
             
-        return ucReport, ucReplayStatus
+        return ucReport, uc_replay_status
 
     def get_dic_xml(self, xml_string):
         root = ET.fromstring(xml_string)
-        ucReport, ucReplayStatus = self.__get_ucReport__(root)
+        ucReport, uc_replay_status = self.__get_ucReport__(root)
         xmlReplays = self.__get_xmlReplays__(ucReport)
         return xmlReplays
 
-    def get_df_xml(self, xml_string):
+    def get_df(self, xml_string, db_score_id, db_lendify_user_id):
+        self.db_lendify_user_id = db_lendify_user_id
+        self.db_score_id = db_score_id
         root = ET.fromstring(xml_string)
-        ucReport, ucReplayStatus = self.__get_ucReport__(root)
+        ucReport, uc_replay_status = self.__get_ucReport__(root)
 
         data_dic = self.__get_df_xmlReplays__(ucReport)
         #rows = str(len(data_dic[self.termId]))
         #print('rows in data_dic:' + rows)
         df = pd.DataFrame(data_dic)
-        return df
+        return df, uc_replay_status
 
     def __get_xmlReplays__(self, ucReport):
         # used for report, group and term with name spaces
@@ -206,8 +213,8 @@ class UCData:
                             term_text = term.text
 
 
-                    # df_dic[self.lendifyUserId].append(dbdfLendifyUserId) # 0
-                    # df_dic[self.scoreId].append(dbScoreID) # 1
+                    df_dic[self.lendifyUserId].append(self.db_lendify_user_id) # 0
+                    df_dic[self.scoreId].append(self.db_score_id) # 1
 
                     df_dic[self.reportId].append(report_dic['id']) # 2
                     df_dic[self.reportIndex].append(report_dic['index']) # 3

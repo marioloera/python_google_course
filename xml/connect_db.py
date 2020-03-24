@@ -40,42 +40,39 @@ def main():
     print('start.')
 
     connAZ = ConnAZ()
-    records = 1000
+    records = 2000
 
-    print('getting ids_with_error from file')
+    #print('getting ids_with_error from file')
     ids_with_error_file = 'ids_with_error.log'
     ids_without_error_file = 'ids_without_error.log'
+    max_id_file = 'max_id_file.log'
 
 
-    ids_with_error = set()
+    ids_with_error = {}
     ids_without_error = set()
 
     new_errors = 0
-    with open(ids_with_error_file, 'r') as f:
-        for line in f:
-            ids_with_error.add(int(line.strip()))
-        f.close()
+    # with open(ids_with_error_file, 'r') as f:
+    #     for line in f:
+    #         ids_with_error.add(int(line.strip()))
+    #     f.close()
 
-    min_id = None
-    with open(ids_without_error_file, 'r') as f:
-        for line in f:
-            id = int(line.strip())
-            ids_without_error.add(id)
-            if min_id == None:
-                min_id = id
-            min_id = min(min_id, id)
+    max_id = 0
+    with open(max_id_file, 'r') as f:
+        lines = f.readline()
+        max_id = int(lines)
         f.close()
-    ids_error_str  = ','.join(str(id) for id in ids_with_error)
-    where_condition = '\nAND ScoreId < {0}'.format(min_id)
-    if len(ids_with_error) > 0:
-        pass
+    # ids_error_str  = ','.join(str(id) for id in ids_with_error)
+    where_condition = '\nAND ScoreId > {0}'.format(max_id)
+    # if len(ids_with_error) > 0:
         # where_condition += '\nAND ScoreId NOT IN ({ids})'.format(ids=ids_error_str)
 
-    query = 'SELECT TOP ({rec}) ScoreId, UCData \
+
+    query = 'SELECT TOP ({rec}) ScoreId, LendifyUser_Id, UCData \
             \nFROM dbo.UserCreditScores \
             \nWHERE UCData IS NOT NULL {where_condition}\
-            \nORDER BY ScoreId DESC;'.format(rec=records, where_condition=where_condition)
-    print(query)
+            \nORDER BY ScoreId;'.format(rec=records, where_condition=where_condition)
+    #print(query)
     print('fetching {rec} rows from the database.'.format(rec=records))
     df = connAZ.get_data(query)
     print('fetched rows: {rec}.'.format(rec=len(df.index)))
@@ -85,38 +82,64 @@ def main():
     print('et script:')
     for index, row in df.iterrows():
     #for index in range(records):  
-        #uc_dic = uc.get_dic_xml(xml_string)
-        # pp.pprint(uc_dic)
+        score_id = int(row['ScoreId'])
+        #uc_dic = uc.get_dic_xml(row['UCData'])
+        #pp.pprint(uc_dic)
         # reportId = flat_uc_df.at[0, uc.reportId]
         # print(flat_uc_df)
-        score_id = int(row['ScoreId'])
-
+        lendify_user_id = row['LendifyUser_Id']
         try:
-            flat_uc_df = uc.get_df_xml(row['UCData'])
-            ids_without_error.add(score_id)
+            flat_uc_df, uc_replay_status = uc.get_df(
+                                                row['UCData'], 
+                                                score_id, 
+                                                lendify_user_id,
+                                                )
+            #flat_uc_df, uc_replay_status = uc.get_df_xml(row['UCData'], score_id, lendifyfUser)
+            if uc_replay_status == 'ok':
+                ids_without_error.add(score_id)
 
-            if index%100 == 0:
-                print('.')
-
+            else:
+                new_errors += 1
+                # ids_with_error.append('{id}, {er}'.format(id=score_id, er=uc_replay_status))
+                ids_with_error[score_id] = uc_replay_status
+            #if index%100 == 0:
+                #print('.')
 
         except:
             new_errors += 1
-            ids_with_error.add(score_id)
+            # ids_with_error.add(score_id)
+            # ids_with_error.append('{id}, {er}'.format(id=score_id, er='except'))
+            ids_with_error[score_id] = 'except'
+
             #print('\n\terror at ScoreID: {id}'.format(id=score_id)) 
             pass
     
-    update_file_id(ids_with_error_file, ids_with_error)
-    update_file_id(ids_without_error_file, ids_without_error)
-
+    max_id = score_id
+    
+    dic_to_file(ids_with_error_file, ids_with_error)
+    set_to_file(ids_without_error_file, ids_without_error)
+    save_max_id(max_id_file, max_id)
     
     print('new_errors:',new_errors)
     print('\nend!')
 
-def update_file_id(filename, set_ids):
+def save_max_id(filename, max_id):
+    with open(filename, 'w') as f:
+        f.write(str(max_id))
+        f.close()
+
+def dic_to_file(filename, dic):
+    with open(filename, 'a') as f:
+        for key, value in dic.items():
+            f.write('\n{k}, {v}'.format(k=key, v=value))
+        f.close()
+
+def set_to_file(filename, set_ids):
     list_id = list(set_ids)
     list_id.sort()
-    with open(filename, 'w') as f:
+    with open(filename, 'a') as f:
         f.writelines("%s\n" % id for id in list_id)
         f.close()
+
 
 main()
