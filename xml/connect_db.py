@@ -3,6 +3,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from ucdata import UCData as UC
 import pprint
+import csv
 
 pp = pprint.PrettyPrinter(indent=0)
 
@@ -39,71 +40,60 @@ class ConnAZ():
 def main():
     print('start.')
 
-    connAZ = ConnAZ()
-    records = 2000
+    records_to_fetch = 150
 
-    #print('getting ids_with_error from file')
     ids_with_error_file = 'ids_with_error.log'
     ids_without_error_file = 'ids_without_error.log'
     max_id_file = 'max_id_file.log'
 
-
     ids_with_error = {}
     ids_without_error = set()
-
     new_errors = 0
-    # with open(ids_with_error_file, 'r') as f:
-    #     for line in f:
-    #         ids_with_error.add(int(line.strip()))
-    #     f.close()
 
+    with open(ids_with_error_file, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            ids_with_error[int(row['score_id'])] = row['error_message']
+        f.close()
     max_id = 0
+
     with open(max_id_file, 'r') as f:
         lines = f.readline()
         max_id = int(lines)
         f.close()
-    # ids_error_str  = ','.join(str(id) for id in ids_with_error)
-    where_condition = '\nAND ScoreId > {0}'.format(max_id)
-    # if len(ids_with_error) > 0:
-        # where_condition += '\nAND ScoreId NOT IN ({ids})'.format(ids=ids_error_str)
+    ids_error_str  = ','.join(str(id) for id in ids_with_error)
+    
+    where_condition = '\nAND ScoreId < {0}'.format(max_id)
+    if len(ids_with_error) > 0:
+        where_condition += '\nAND ScoreId IN ({ids})'.format(ids=ids_error_str)
 
-
-    query = 'SELECT TOP ({rec}) ScoreId, LendifyUser_Id, UCData \
+    query = "SELECT TOP ({rec}) ScoreId, LendifyUser_Id, UCData \
             \nFROM dbo.UserCreditScores \
-            \nWHERE UCData IS NOT NULL {where_condition}\
-            \nORDER BY ScoreId;'.format(rec=records, where_condition=where_condition)
-    #print(query)
-    print('fetching {rec} rows from the database.'.format(rec=records))
+            \nWHERE UCData != '' {where_condition}\
+            \nORDER BY ScoreId;".format(rec=records_to_fetch, where_condition=where_condition)
+
+    print('fetching {rec} rows from the database.'.format(rec=records_to_fetch))
+    connAZ = ConnAZ()
     df = connAZ.get_data(query)
+
     print('fetched rows: {rec}.'.format(rec=len(df.index)))
-
-    uc = UC()
-
     print('et script:')
+    uc = UC()
+    print('total_errors:'+str(len(ids_with_error)))
     for index, row in df.iterrows():
-    #for index in range(records):  
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])
-        #pp.pprint(uc_dic)
-        # reportId = flat_uc_df.at[0, uc.reportId]
-        # print(flat_uc_df)
-        lendify_user_id = row['LendifyUser_Id']
+        continue
+
         try:
-            flat_uc_df, uc_replay_status = uc.get_df(
-                                                row['UCData'], 
-                                                score_id, 
-                                                lendify_user_id,
-                                                )
-            #flat_uc_df, uc_replay_status = uc.get_df_xml(row['UCData'], score_id, lendifyfUser)
+            flat_uc_df, uc_replay_status = uc.get_df(row['UCData'], score_id, row['LendifyUser_Id'])
+                                                
             if uc_replay_status == 'ok':
                 ids_without_error.add(score_id)
 
             else:
                 new_errors += 1
-                # ids_with_error.append('{id}, {er}'.format(id=score_id, er=uc_replay_status))
                 ids_with_error[score_id] = uc_replay_status
-            #if index%100 == 0:
-                #print('.')
 
         except:
             new_errors += 1
@@ -114,11 +104,13 @@ def main():
             #print('\n\terror at ScoreID: {id}'.format(id=score_id)) 
             pass
     
-    max_id = score_id
+    print('total_errors:'+str(len(ids_with_error)))
+
+    #max_id = score_id
     
-    dic_to_file(ids_with_error_file, ids_with_error)
-    set_to_file(ids_without_error_file, ids_without_error)
-    save_max_id(max_id_file, max_id)
+    # dic_to_file(ids_with_error_file, ids_with_error)
+    #set_to_file(ids_without_error_file, ids_without_error)
+    #save_max_id(max_id_file, max_id)
     
     print('new_errors:',new_errors)
     print('\nend!')
@@ -129,9 +121,11 @@ def save_max_id(filename, max_id):
         f.close()
 
 def dic_to_file(filename, dic):
-    with open(filename, 'a') as f:
+    with open(filename, 'w') as f:
+        f.write('{k},{v}'.format(k='score_id', v='error_message'))
+
         for key, value in dic.items():
-            f.write('\n{k}, {v}'.format(k=key, v=value))
+            f.write('\n{k},{v}'.format(k=key, v=value))
         f.close()
 
 def set_to_file(filename, set_ids):

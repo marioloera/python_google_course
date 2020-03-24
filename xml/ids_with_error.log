@@ -1,151 +1,128 @@
-1, except
-31, except
-34, except
-13131, except
-16106, except
-16107, except
-16108, except
-16210, except
-17457, except
-17709, except
-17710, except
-21641, except
-21787, error
-21791, error
-21870, except
-21871, except
-24077, error
-25267, no ucReplay
-27291, error
-30145, error
-30519, error
-32207, error
-32310, error
-33322, error
-33426, error
-33485, no ucReplay
-36675, error
-36697, error
-36928, error
-36930, error
-41109, no ucReplay
-41680, error
-42203, no ucReplay
-42264, error
-43226, error
-43230, error
-43256, error
-43747, no ucReplay
-43749, error
-44025, error
-44560, error
-44916, error
-45275, error
-45373, error
-45508, no ucReplay
-45649, error
-45867, error
-45897, error
-47508, no ucReplay
-47509, no ucReplay
-47570, error
-47690, error
-47841, error
-47868, error
-47983, no ucReplay
-48235, error
-48243, error
-48320, error
-48519, error
-48803, error
-48883, no ucReplay
-48884, no ucReplay
-48885, no ucReplay
-48915, no ucReplay
-49115, error
-49208, error
-49448, error
-49449, error
-49495, error
-49726, error
-49735, error
-49747, no ucReplay
-49748, no ucReplay
-49830, error
-49831, error
-49833, error
-49834, error
-49835, error
-49836, error
-49837, error
-49838, error
-49839, error
-49840, error
-49841, error
-49842, error
-49844, error
-49845, error
-49846, error
-49847, error
-49848, error
-49849, error
-49850, error
-49852, error
-49853, error
-49854, error
-49855, error
-49856, error
-49857, error
-49858, error
-49859, error
-50119, error
-50367, error
-50368, error
-50433, error
-50434, error
-50435, error
-50436, error
-50437, error
-50588, no ucReplay
-50589, no ucReplay
-50590, no ucReplay
-50678, error
-50705, error
-50744, error
-50795, error
-50812, error
-50826, error
-
-50588, no ucReplay
-50589, no ucReplay
-50590, no ucReplay
-50678, error
-50705, error
-50744, error
-50795, error
-50812, error
-50826, error
-50875, error
-51366, no ucReplay
-51438, error
-51449, error
-51450, error
-51608, error
-52024, error
-52110, error
-52194, error
-52303, no ucReplay
-52304, no ucReplay
-52305, no ucReplay
-52306, no ucReplay
-52311, error
-52317, error
-52357, no ucReplay
-52358, no ucReplay
-52410, error
-52411, error
-52603, error
-52655, error
-52656, error
-52867, no ucReplay
-52868, no ucReplay
+score_id,error_message
+21787,    error
+21791,    error
+24077,    error
+25267,    no ucReplay
+27291,    error
+30145,    error
+30519,    error
+32207,    error
+32310,    error
+33322,    error
+33426,    error
+33485,    no ucReplay
+36675,    error
+36697,    error
+36928,    error
+36930,    error
+41109,    no ucReplay
+41680,    error
+42203,    no ucReplay
+42264,    error
+43226,    error
+43230,    error
+43256,    error
+43747,    no ucReplay
+43749,    error
+44025,    error
+44560,    error
+44916,    error
+45275,    error
+45373,    error
+45508,    no ucReplay
+45649,    error
+45867,    error
+45897,    error
+47508,    no ucReplay
+47509,    no ucReplay
+47570,    error
+47690,    error
+47841,    error
+47868,    error
+47983,    no ucReplay
+48235,    error
+48243,    error
+48320,    error
+48519,    error
+48803,    error
+48883,    no ucReplay
+48884,    no ucReplay
+48885,    no ucReplay
+48915,    no ucReplay
+49115,    error
+49208,    error
+49448,    error
+49449,    error
+49495,    error
+49726,    error
+49735,    error
+49747,    no ucReplay
+49748,    no ucReplay
+49830,    error
+49831,    error
+49833,    error
+49834,    error
+49835,    error
+49836,    error
+49837,    error
+49838,    error
+49839,    error
+49840,    error
+49841,    error
+49842,    error
+49844,    error
+49845,    error
+49846,    error
+49847,    error
+49848,    error
+49849,    error
+49850,    error
+49852,    error
+49853,    error
+49854,    error
+49855,    error
+49856,    error
+49857,    error
+49858,    error
+49859,    error
+50119,    error
+50367,    error
+50368,    error
+50433,    error
+50434,    error
+50435,    error
+50436,    error
+50437,    error
+50588,    no ucReplay
+50589,    no ucReplay
+50590,    no ucReplay
+50678,    error
+50705,    error
+50744,    error
+50795,    error
+50812,    error
+50826,    error
+50875,    error
+51366,    no ucReplay
+51438,    error
+51449,    error
+51450,    error
+51608,    error
+52024,    error
+52110,    error
+52194,    error
+52303,    no ucReplay
+52304,    no ucReplay
+52305,    no ucReplay
+52306,    no ucReplay
+52311,    error
+52317,    error
+52357,    no ucReplay
+52358,    no ucReplay
+52410,    error
+52411,    error
+52603,    error
+52655,    error
+52656,    error
+52867,    no ucReplay
+52868,    no ucReplay
