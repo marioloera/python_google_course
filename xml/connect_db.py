@@ -66,7 +66,7 @@ def main():
     where_condition = '\nAND ScoreId < {0}'.format(max_id)
     if len(ids_with_error) > 0:
         where_condition += '\nAND ScoreId IN ({ids})'.format(ids=ids_error_str)
-
+        
     query = "SELECT TOP ({rec}) ScoreId, LendifyUser_Id, UCData \
             \nFROM dbo.UserCreditScores \
             \nWHERE UCData != '' {where_condition}\
@@ -79,7 +79,8 @@ def main():
     print('fetched rows: {rec}.'.format(rec=len(df.index)))
     print('et script:')
     uc = UC()
-    print('total_errors:'+str(len(ids_with_error)))
+    print('total_errors:' + str(len(ids_with_error)))
+
     for index, row in df.iterrows():
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])

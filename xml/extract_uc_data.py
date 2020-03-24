@@ -80,6 +80,12 @@ class UCData:
         return xmlReplays
 
     def get_dataframe(self, xml_string, db_score_id, db_lendify_user_id):
+        if (xml_string == ''):
+            return None, 'empty xml_string'
+        
+        if (xml_string == None):
+            return None, 'null xml_string'
+            
         self.db_lendify_user_id = db_lendify_user_id
         self.db_score_id = db_score_id
         root = ET.fromstring(xml_string)
