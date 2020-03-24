@@ -40,23 +40,24 @@ class UCDataTest(unittest.TestCase):
     
     def test_empty_string(self):
         uc = UC()
-        self.assertEqual(uc.get_dataframe('', 1, 'a'), (None, 'empty xml_string'))
+        df, status = uc.get_dataframe('', 1, 'a')
+        self.assertEqual((df, status), (None, 'empty xml_string'))
     
     def test_null(self):
         uc = UC()
-        self.assertEqual(uc.get_dataframe(None, 1, 'a'), (None, 'null xml_string'))
+        df, status = uc.get_dataframe(None, 1, 'a')
+        self.assertEqual((df, status), (None, 'null xml_string'))
 
     def test_replay_status(self):
         uc = UC()
-        df, status = uc.get_dataframe(get_xml(), 1, 'a')
-
+        _, status = uc.get_dataframe(get_xml(), 1, 'a')
         self.assertEqual(status, 'ok')
 
     def test_score_and_user(self):
         uc = UC()
         expected = [219328372, '13ldkf0239']
-        df, status = uc.get_dataframe(get_xml(), expected[0], expected[1])    
-        for index, row in df.iterrows():
+        df, _ = uc.get_dataframe(get_xml(), expected[0], expected[1])    
+        for _, row in df.iterrows():
             result = []
             result.append(int(row[uc.scoreId]))
             result.append(row[uc.lendifyUserId])
@@ -66,8 +67,8 @@ class UCDataTest(unittest.TestCase):
         uc = UC()
         expected = ['4801093750','0','Peter Peltonen','3']
         # <ns2:report ns2:id="4801093750" ns2:index="0" ns2:name="Peter Peltonen" ns2:styp="3">\
-        df, status = uc.get_dataframe(get_xml(), 1, 'a')    
-        for index, row in df.iterrows():
+        df, _ = uc.get_dataframe(get_xml(), 1, 'a')    
+        for _, row in df.iterrows():
             result = []
             result.append(row[uc.reportId])
             result.append(row[uc.reportIndex])
@@ -79,8 +80,8 @@ class UCDataTest(unittest.TestCase):
         uc = UC()
         expected = ['W080', '0', '', 'IDuppgifter, fysiker']
         # <ns2:group ns2:id="W080" ns2:index="0" ns2:key="" ns2:name="IDuppgifter, fysiker">\
-        df, status = uc.get_dataframe(get_xml(), 1, 'a') 
-        for index, row in df.iterrows():
+        df, _ = uc.get_dataframe(get_xml(), 1, 'a') 
+        for _, row in df.iterrows():
             result = []
             result.append(row[uc.groupId])
             result.append(row[uc.groupIndex])
@@ -102,15 +103,13 @@ class UCDataTest(unittest.TestCase):
         # <ns2:term ns2:id="W08030">2</ns2:term>
         # <ns2:term ns2:id="W08043">Gift sedan 1995-08 med Helga Peltonen (590510-4948)</ns2:term>
         # <ns2:term ns2:id="W08031">199508</ns2:term>
-        df, status = uc.get_dataframe(get_xml(), 1, 'a')
+        df, _ = uc.get_dataframe(get_xml(), 1, 'a')
         result = {}
-        for index, row in df.iterrows():
+        for _, row in df.iterrows():
             termId = row[uc.termId]
             if termId not in expected.keys():
                 continue
             result[termId] = row[uc.termData]
-        print(uc.db_score_id)
-        print('did you see the lendify user above')
         self.assertEqual(result, expected)
 
 if __name__ == '__main__':
