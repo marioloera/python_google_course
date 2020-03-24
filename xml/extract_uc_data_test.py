@@ -114,20 +114,33 @@ class UCDataTest(unittest.TestCase):
 
     def test_file(self):
         filename = 'xmldata/uc_xml_example1.xml'
-        with open(filename, 'r') as f:
-            xml_string = f.read()
-            f.close()
         uc = UC()
         df, _ = uc.get_df_from_file(filename, 1, 'a')
         expected = {
                     'group_count': 39,
+                    'W450-2-W45024': '9473',
+                    'W450-4-W45024': '9604',
+                    'W46B-0-key':'196409071492',
                     }
         result = {}
         groups = {}
         for _, row in df.iterrows():
-            group_index = row[uc.groupId]+'-'+row[uc.groupIndex]
-            if group_index not in groups.keys():
-                groups[group_index] = 1
+            groupId = row[uc.groupId]
+            groupIndex = row[uc.groupIndex]
+            groupKey = row[uc.groupKey]
+            termId = row[uc.termId]
+            termData = row[uc.termData]
+            gId_gIndex = '-'.join([groupId, groupIndex])
+            if gId_gIndex not in groups.keys():
+                groups[gId_gIndex] = 1
+
+            if groupId == 'W450' and termId == 'W45024':
+                if groupIndex == '2' or groupIndex == '4':
+                   result['-'.join([groupId , groupIndex, termId])] = termData
+            
+            elif groupId == 'W46B' and groupIndex == '0':
+                result['-'.join([groupId , groupIndex, 'key'])] = groupKey
+
 
         result['group_count'] = len(groups)
         self.assertEqual(result, expected)
