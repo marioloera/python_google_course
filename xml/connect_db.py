@@ -81,7 +81,7 @@ def main():
     uc = UC()
     print('total_errors:' + str(len(ids_with_error)))
 
-    for index, row in df.iterrows():
+    for _, row in df.iterrows():
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])
         try:
@@ -93,8 +93,10 @@ def main():
             else:
                 new_errors += 1
                 ids_with_error[score_id] = uc_replay_status
-                filename = 'xml_error\{id}_{msg}.xml'.format(id=score_id, msg=uc_replay_status)
-                make_new_file(filename, row['UCData'])
+                if uc_replay_status != uc.resultNull and uc_replay_status != uc.resultEmptyString:
+                    # 
+                    filename = 'xml_error\{msg}_{id}.xml'.format(id=score_id, msg=uc_replay_status)
+                    make_new_file(filename, row['UCData'])
         
         except:
             new_errors += 1
