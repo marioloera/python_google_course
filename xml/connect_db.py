@@ -1,6 +1,5 @@
 import  pyodbc
 import pandas as pd
-import xml.etree.ElementTree as ET
 from extract_uc_data import UCData as UC
 import pprint
 import csv
@@ -40,7 +39,7 @@ class ConnAZ():
 def main():
     print('start.')
 
-    records_to_fetch = 150
+    records_to_fetch = 1000
 
     ids_with_error_file = 'ids_with_error.log'
     ids_without_error_file = 'ids_without_error.log'
@@ -61,17 +60,17 @@ def main():
         lines = f.readline()
         max_id = int(lines)
         f.close()
-    ids_error_str  = ','.join(str(id) for id in ids_with_error)
     
-    where_condition = '\nAND ScoreId < {0}'.format(max_id)
-    if len(ids_with_error) > 0:
-        where_condition += '\nAND ScoreId IN ({ids})'.format(ids=ids_error_str)
+    where_condition = '\nAND ScoreId > {0}'.format(max_id)
+    # ids_error_str  = ','.join(str(id) for id in ids_with_error)
+    # if len(ids_with_error) > 0:
+    #     where_condition += '\nAND ScoreId NOT IN ({ids})'.format(ids=ids_error_str)
         
     query = "SELECT TOP ({rec}) ScoreId, LendifyUser_Id, UCData \
             \nFROM dbo.UserCreditScores \
             \nWHERE UCData != '' {where_condition}\
             \nORDER BY ScoreId;".format(rec=records_to_fetch, where_condition=where_condition)
-
+    print(query)
     print('fetching {rec} rows from the database.'.format(rec=records_to_fetch))
     connAZ = ConnAZ()
     df = connAZ.get_data(query)
@@ -79,8 +78,8 @@ def main():
     print('fetched rows: {rec}.'.format(rec=len(df.index)))
     print('et script:')
     uc = UC()
-    print('total_errors:' + str(len(ids_with_error)))
-
+    #print('total_errors:' + str(len(ids_with_error)))
+    score_id = None
     for _, row in df.iterrows():
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])
@@ -95,25 +94,21 @@ def main():
                 ids_with_error[score_id] = uc_replay_status
                 if uc_replay_status != uc.resultNull and uc_replay_status != uc.resultEmptyString:
                     # 
-                    filename = 'xml_error\{msg}_{id}.xml'.format(id=score_id, msg=uc_replay_status)
+                    filename = 'xml_error\\{msg}_{id}.xml'.format(id=score_id, msg=uc_replay_status)
                     make_new_file(filename, row['UCData'])
         
         except:
             new_errors += 1
-            # ids_with_error.add(score_id)
-            # ids_with_error.append('{id}, {er}'.format(id=score_id, er='except'))
             ids_with_error[score_id] = 'except'
-
-            #print('\n\terror at ScoreID: {id}'.format(id=score_id)) 
             pass
     
-    print('total_errors:'+str(len(ids_with_error)))
-
-    #max_id = score_id
+    #print('total_errors:'+str(len(ids_with_error)))
+    if score_id != None:
+        max_id = score_id
     
     dic_to_file(ids_with_error_file, ids_with_error)
-    #set_to_file(ids_without_error_file, ids_without_error)
-    #save_max_id(max_id_file, max_id)
+    set_to_file(ids_without_error_file, ids_without_error)
+    save_max_id(max_id_file, max_id)
     
     print('new_errors:',new_errors)
     print('\nend!')
