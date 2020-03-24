@@ -112,5 +112,25 @@ class UCDataTest(unittest.TestCase):
             result[termId] = row[uc.termData]
         self.assertEqual(result, expected)
 
+    def test_file(self):
+        filename = 'xmldata/uc_xml_example1.xml'
+        with open(filename, 'r') as f:
+            xml_string = f.read()
+            f.close()
+        uc = UC()
+        df, _ = uc.get_df_from_file(filename, 1, 'a')
+        expected = {
+                    'group_count': 39,
+                    }
+        result = {}
+        groups = {}
+        for _, row in df.iterrows():
+            group_index = row[uc.groupId]+'-'+row[uc.groupIndex]
+            if group_index not in groups.keys():
+                groups[group_index] = 1
+
+        result['group_count'] = len(groups)
+        self.assertEqual(result, expected)
+
 if __name__ == '__main__':
     unittest.main()

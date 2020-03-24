@@ -80,20 +80,28 @@ class UCData:
         return xmlReplays
 
     def get_dataframe(self, xml_string, db_score_id, db_lendify_user_id):
+        self.db_lendify_user_id = db_lendify_user_id
+        self.db_score_id = db_score_id
         if (xml_string == ''):
             return None, 'empty xml_string'
         
         if (xml_string == None):
             return None, 'null xml_string'
             
-        self.db_lendify_user_id = db_lendify_user_id
-        self.db_score_id = db_score_id
         root = ET.fromstring(xml_string)
         ucReport, uc_replay_status = self.__get_ucReport__(root)
-
         data_dic = self.__get_df_xmlReplays__(ucReport)
-        #rows = str(len(data_dic[self.termId]))
-        #print('rows in data_dic:' + rows)
+        df = pd.DataFrame(data_dic)
+        return df, uc_replay_status
+
+
+    def get_df_from_file(self, filename, db_score_id, db_lendify_user_id):            
+        self.db_lendify_user_id = db_lendify_user_id
+        self.db_score_id = db_score_id
+        tree = ET.parse(filename)
+        root = tree.getroot()
+        ucReport, uc_replay_status = self.__get_ucReport__(root)
+        data_dic = self.__get_df_xmlReplays__(ucReport)
         df = pd.DataFrame(data_dic)
         return df, uc_replay_status
 
