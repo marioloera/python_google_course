@@ -83,8 +83,6 @@ def main():
     for index, row in df.iterrows():
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])
-        continue
-
         try:
             flat_uc_df, uc_replay_status = uc.get_df(row['UCData'], score_id, row['LendifyUser_Id'])
                                                 
@@ -94,7 +92,9 @@ def main():
             else:
                 new_errors += 1
                 ids_with_error[score_id] = uc_replay_status
-
+                filename = 'xml_error\{id}_{msg}.xml'.format(id=score_id, msg=uc_replay_status)
+                make_new_file(filename, row['UCData'])
+        
         except:
             new_errors += 1
             # ids_with_error.add(score_id)
@@ -108,12 +108,17 @@ def main():
 
     #max_id = score_id
     
-    # dic_to_file(ids_with_error_file, ids_with_error)
+    dic_to_file(ids_with_error_file, ids_with_error)
     #set_to_file(ids_without_error_file, ids_without_error)
     #save_max_id(max_id_file, max_id)
     
     print('new_errors:',new_errors)
     print('\nend!')
+
+def make_new_file(filename, text):
+    with open(filename, 'w', encoding='UTF-8') as f:
+        f.write(str(text))
+        f.close()
 
 def save_max_id(filename, max_id):
     with open(filename, 'w') as f:
@@ -125,7 +130,7 @@ def dic_to_file(filename, dic):
         f.write('{k},{v}'.format(k='score_id', v='error_message'))
 
         for key, value in dic.items():
-            f.write('\n{k},{v}'.format(k=key, v=value))
+            f.write('\n{k},{v}'.format(k=key, v=value.strip()))
         f.close()
 
 def set_to_file(filename, set_ids):
