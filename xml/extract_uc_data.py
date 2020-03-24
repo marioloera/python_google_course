@@ -6,6 +6,11 @@ import copy
 class UCData:
 
     def __init__(self):
+        self.resultOk = 'ok'
+        self.resultError = 'error'
+        self.resultNull = 'null xml_string'
+        self.resultEmptyString = 'empty xml_string'
+
         self.lendifyUserId = 'LendifyUserId' # 0
         self.scoreId = 'ScoreId' # 1
         self.reportId = 'ReportId' # 2
@@ -83,17 +88,16 @@ class UCData:
         self.db_lendify_user_id = db_lendify_user_id
         self.db_score_id = db_score_id
         if (xml_string == ''):
-            return None, 'empty xml_string'
+            return None, self.resultEmptyString
         
         if (xml_string == None):
-            return None, 'null xml_string'
+            return None, self.resultNull
             
         root = ET.fromstring(xml_string)
         ucReport, uc_replay_status = self.__get_ucReport__(root)
         data_dic = self.__get_df_xmlReplays__(ucReport)
         df = pd.DataFrame(data_dic)
         return df, uc_replay_status
-
 
     def get_df_from_file(self, filename, db_score_id, db_lendify_user_id):            
         self.db_lendify_user_id = db_lendify_user_id

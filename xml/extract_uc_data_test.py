@@ -41,17 +41,17 @@ class UCDataTest(unittest.TestCase):
     def test_empty_string(self):
         uc = UC()
         df, status = uc.get_dataframe('', 1, 'a')
-        self.assertEqual((df, status), (None, 'empty xml_string'))
+        self.assertEqual((df, status), (None, uc.resultEmptyString))
     
     def test_null(self):
         uc = UC()
         df, status = uc.get_dataframe(None, 1, 'a')
-        self.assertEqual((df, status), (None, 'null xml_string'))
+        self.assertEqual((df, status), (None, uc.resultNull))
 
     def test_replay_status(self):
         uc = UC()
         _, status = uc.get_dataframe(get_xml(), 1, 'a')
-        self.assertEqual(status, 'ok')
+        self.assertEqual(status, uc.resultOk)
 
     def test_score_and_user(self):
         uc = UC()
