@@ -1,7 +1,7 @@
 import  pyodbc
 import pandas as pd
 import xml.etree.ElementTree as ET
-from ucdata import UCData as UC
+from extract_uc_data import UCData as UC
 import pprint
 import csv
 
@@ -84,7 +84,7 @@ def main():
         score_id = int(row['ScoreId'])
         #uc_dic = uc.get_dic_xml(row['UCData'])
         try:
-            flat_uc_df, uc_replay_status = uc.get_df(row['UCData'], score_id, row['LendifyUser_Id'])
+            flat_uc_df, uc_replay_status = uc.get_dataframe(row['UCData'], score_id, row['LendifyUser_Id'])
                                                 
             if uc_replay_status == 'ok':
                 ids_without_error.add(score_id)

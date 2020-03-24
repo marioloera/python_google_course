@@ -79,7 +79,7 @@ class UCData:
         xmlReplays = self.__get_xmlReplays__(ucReport)
         return xmlReplays
 
-    def get_df(self, xml_string, db_score_id, db_lendify_user_id):
+    def get_dataframe(self, xml_string, db_score_id, db_lendify_user_id):
         self.db_lendify_user_id = db_lendify_user_id
         self.db_score_id = db_score_id
         root = ET.fromstring(xml_string)
