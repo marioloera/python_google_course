@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import unittest
 from extract_uc_data import UCData as UC
 
@@ -113,9 +114,12 @@ class UCDataTest(unittest.TestCase):
         self.assertEqual(result, expected)
 
     def test_file(self):
-        filename = 'xmldata/uc_xml_example1.xml'
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        filedir = 'xmldata'
+        filename = 'uc_xml_example1.xml'
+        fullpath = os.path.join(dir_path, filedir, filename)
         uc = UC()
-        df, _ = uc.get_df_from_file(filename, 1, 'a')
+        df, _ = uc.get_df_from_file(fullpath, 1, 'a')
         expected = {
                     'group_count': 39,
                     'W450-2-W45024': '9473',
