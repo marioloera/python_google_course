@@ -1,3 +1,4 @@
 # ignore logfiles
 *.log
+__*
 extract_uc_xml/
