@@ -21,13 +21,19 @@ print(type(apple1))
 
 class Animal:
     sound = ''
-    def __init__(self, name):
+    kind = '0'
+    def __init__(self, name, _kind='1'):
+        print('\nAnimal Class __init__')
         self.name = name
+        self.kind = _kind
         print(self)
         self.speak()
 
     def speak(self):
-        print("{so}! I'm {na}! {so}!".format(na=self.name, so=self.sound*2))
+        print("{sound}! I'm {name}! {sound}!".format(
+                            name=self.name,
+                            sound=self.sound*2))
+        print(self.kind)
 
     def __str__(self):
         m = "this is a:{ty}".format(ty=type(self))
@@ -35,15 +41,20 @@ class Animal:
     
 class Piglet(Animal):
     sound = 'Oink!'
+    print('\nPiglet Class: ' + Animal.kind) 
+
+
 
 class Dog(Animal):
     sound = 'Guag!'
+    print('\nDog Class: ' + Animal.kind) 
 
-hamlet = Piglet('Hampet')
-shasha = Dog('Shasha')
+print('initialization:\n')
+hamlet = Piglet('Hampet', '2')
+shasha = Dog('Shasha', '3')
 # hamlet.name = 
 # hamlet.speak()
-
+exit()
 
 class Clothing:
     
