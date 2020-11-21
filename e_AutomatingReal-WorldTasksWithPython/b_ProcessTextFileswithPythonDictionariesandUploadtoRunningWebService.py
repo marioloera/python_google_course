@@ -1,4 +1,3 @@
-
 #! /usr/bin/env python3
 import os
 import requests
@@ -6,8 +5,8 @@ import requests
 
 def main():
     src_dir = '/data/feedback'
-    src_dir = 'data'
-    ip = '104.197.242.231'
+    #src_dir = 'data'
+    ip = '34.68.243.158/'
     url = 'http://' + ip + '/feedback/'
     reviews = file_to_dic(src_dir)
     for review in reviews:
@@ -34,6 +33,8 @@ def file_to_dic(src_dir):
     for file in os.listdir(src_dir):
         review = {}
         path = os.path.join(src_dir, file)
+        if '.txt' not in file:
+            continue
         with open(path, 'r') as f:
             for i, line in enumerate(f):
                 review[keys[i]] = line.rstrip()
@@ -43,5 +44,3 @@ def file_to_dic(src_dir):
 
 if __name__ == '__main__':
     main()
-
-

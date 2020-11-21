@@ -1,0 +1,19 @@
+touch start.sh
+sudo chmod +x start.sh
+./start.sh
+
+nano changeImage.py
+copy paste code changeImage.py
+./changeImage.py
+
+nano supplier_image_upload.py
+copy paste supplier_image_upload.py
+./supplier_image_upload.py
+
+nano run.py
+copy paste run.py
+./run.py
+
+34.72.39.31/fruits
+
+http://34.72.39.31/fruits

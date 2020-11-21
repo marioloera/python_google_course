@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import shutil #disk usage
 import psutil #procesor ussage
 from network import *
