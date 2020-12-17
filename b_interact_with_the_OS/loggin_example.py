@@ -2,20 +2,18 @@
 import logging
 import sys
 import os
-
+import pprint
 from functools import partial, partialmethod
-
-# did not work
-logging.EXCEPTION = 35
-logging.addLevelName(logging.EXCEPTION, 'EXCEPTION')
-logging.Logger.exception = partialmethod(logging.Logger.log, logging.EXCEPTION)
-logging.trace = partial(logging.log, logging.EXCEPTION)
 
 logging.TRACE = 15
 logging.addLevelName(logging.TRACE, 'TRACE')
 logging.Logger.trace = partialmethod(logging.Logger.log, logging.TRACE)
 logging.trace = partial(logging.log, logging.TRACE)
 
+logging.MLLLOGLEVEL = 25
+logging.addLevelName(logging.MLLLOGLEVEL, 'MLLLOGLEVEL')
+logging.Logger.mllloglevel = partialmethod(logging.Logger.log, logging.MLLLOGLEVEL)
+logging.mllloglevel = partial(logging.log, logging.MLLLOGLEVEL)
 
 src_dir = os.path.dirname(os.path.realpath(__file__))
 logging.basicConfig(
@@ -43,14 +41,14 @@ levelsDict1 = {}
 for l in levelsWithName:
     levelsDict1[l] = logging.getLevelName(l)
 print(levelsDict1)
-
+pprint.pprint(levelsDict1)
 for l in levelsWithName:
     print(l)
     logger1.setLevel(l)
     logging.critical(f'\tcritical')
     logging.error(f'\terror')
     logging.warning(f'\twarning')
-    logging.exception(f'\texception')
+    logging.mllloglevel(f'\tmllloglevel')
     logging.info(f'\tinfo')
     logging.trace(f'\ttrace')
     logging.debug(f'\tdebug')
